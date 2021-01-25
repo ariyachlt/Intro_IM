@@ -113,5 +113,5 @@ fill(#FFE87A);  // setting fill colour to yellow (no real reason, just think the
 rect(90, 520, 315, 42);  // main part of the shirt (middle part)
 rect(90, 470, 50, 50);  // left strap rectangle
 triangle(90, 470, 140, 470, 140, 461);  // left strap triangle
-rect(355, 470, 50, 50);  // right strap
+rect(355, 470, 50, 50);  // right strap rectangle
 triangle(355, 470, 405, 470, 355, 453);  // right strap triangle
