@@ -106,7 +106,7 @@ square(285, 260, 50);  // right cheek highlight
 fill(#E17F7A);  // setting fill colour to a dark pink
 triangle(195, 350, 210, 330, 210, 370);  // left corner
 rect(210, 330, 60, 40);  // middle part
-triangle(270, 330, 270, 370, 310, 330);  // right part
+triangle(270, 330, 270, 370, 310, 330);  // right corner
 
 // Shirt
 fill(#FFE87A);  // setting fill colour to yellow (no real reason, just think the colour contrasts the sky well)
