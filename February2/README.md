@@ -16,7 +16,7 @@ For this assignment, I decided to create an interactive grid of squares with var
 3. Added a random() range in the rectangle width and height to create some disorder in the grid
 4. Made the degree of disorder controllable by mapping the mouseX position
 
-## Difficulties
-
+## Challenges
+My main challenge was in figuring out the rectMode(), the rectangle position translation and the random() values together as I wanted to make sure that the background will note be seen through the rectangles at all. In my first attempt I was used rectMode(CORNER) which meant that varying the 
 
 ## Discoveries
