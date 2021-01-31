@@ -1,4 +1,4 @@
-# Assignment 2: For/While Loop Artwork
+# Assignment 2: Computer Graphics and Art
 
 ## Description
 
