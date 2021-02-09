@@ -9,6 +9,9 @@
 For this assignment, we were asked to create an artwork or game using object-oriented programming. 
 
 ## Demo
+<p align="center">
+  <img src="feb9_demo.gif" width="600">
+</p>
 
 ## Process
 1. 
