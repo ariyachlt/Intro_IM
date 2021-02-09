@@ -21,4 +21,7 @@ For this assignment, we were asked to create an artwork or game using object-ori
 5. Draw the system in draw().
 
 ## Challenges
-My main challenge was in 
+My main challenge came after writing the Particle class. It took me quite some time to figure out the syntax of how to write the Particle System class, more specifically, how to deal with arrays when I am trying to store my particles. After some intesnse googling, I came across [ArrayLists](https://processing.org/reference/ArrayList.html) which allows me to store objects and can resize dynamically. I can't say I fully understand the syntax, but after playing around with the code and refering to the processing reference example, I've somehow managed to make it do what I want it to do (I think).
+
+## Discoveries
+The most interesting discovery for me this week is actually due to my challenge with arrays. I've learned that the syntax for arrays in JavaScript and Java is actually VERY different and that it is way more confusing in Java.
