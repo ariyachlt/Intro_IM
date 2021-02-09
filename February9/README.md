@@ -6,6 +6,9 @@
 </p>
 
 ## Description
+For this assignment, we were asked to create an artwork or game using object-oriented programming. 
+
+## Demo
 
 ## Process
 1. 
