@@ -10,7 +10,7 @@ For this assignment, we were asked to create an artwork or game using object-ori
 
 ## Demo
 <p align="center">
-  <img src="feb9_demo.gif" width="580">
+  <img src="feb9_demo.gif" width="520">
 </p>
 
 ## Process
