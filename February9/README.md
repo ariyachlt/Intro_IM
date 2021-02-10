@@ -16,7 +16,7 @@ For this assignment, we were asked to create an artwork or game using object-ori
 ## Process
 1. Declared the size and background in the setup() function.
 2. Wrote the Particle class to describe the properties of each particle (position, color, speed, direction).
-3. Write to Particle System class to describe how to particles should interact with each other (line color, when to connect the lines).
+3. Wrote the Particle System class to describe how to particles should interact with each other (line color, when to connect the lines).
 4. Constructed an array list of particles objects in setup().
 5. Draw the system in draw().
 
