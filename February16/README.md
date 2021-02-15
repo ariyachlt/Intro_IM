@@ -1,8 +1,8 @@
 # Assignment 3: Data Visualization
 
 <p align="center">
-  <img src="miRNA1.png" height="360">
-  <img src="miRNA2.png" height="360">
+  <img src="miRNA1.png" height="340">
+  <img src="miRNA2.png" height="340">
 </p>
 
 <p align="center">
