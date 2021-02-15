@@ -3,8 +3,8 @@
 <p align="center">
   <img src="miRNA1.png" width="450">
   <img src="miRNA2.png" width="450">
+  Left: miR-30a-5p, Right: miR-507.
 </p>
-Left: miR-30a-5p, Right: miR-507.
 
 ## Description
 
