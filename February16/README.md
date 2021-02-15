@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  **Left:** miR-30a-5p, **Right:** miR-507.
+  <b>Left:</b> miR-30a-5p, <b>Right:</b> miR-507.
 </p>
 
 ## Description
