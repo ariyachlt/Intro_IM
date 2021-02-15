@@ -23,9 +23,11 @@ For this assignment, I decided to create a simple data visualization of mature h
 3. The csv file was loaded into processing in an array and the selected 'row' is randomized.
 4. The string was split to separate the miRNA name and sequence.
 5. The index containing the sequence was used to calculate the sequence length (which varies but averages around 20 nucleotides) and divide the width of the screen into equal parts.
-6. 
+6. I then parsed through the sequence to check the base of each nucleotide and draw a rectangle colored based on the letter (A, C, G or U).
+7. The noLoop() funtion was used to prevent the draw() function from continuously executing. A loop() function was included in the mouseClicked() function to randomly select a new miRNA to draw.
 
 ## Challenges
+Since my original data was a fasta file, I had to spend quite a good amount of time
 
 ## Discoveries
 
