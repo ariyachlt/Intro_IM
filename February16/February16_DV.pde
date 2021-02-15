@@ -100,6 +100,6 @@ void draw() {
 
 // function to resume the draw() function when mouse is clicked
 void mouseClicked() {
-  row = round(random(0, 2656));  // randomly select a new miRNA to draw
+  row = round(random(0, 2655));  // randomly select a new miRNA to draw
   loop();
 }
