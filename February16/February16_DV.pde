@@ -4,6 +4,12 @@ Assignment 4: Data Visualization
  Due: Tuesday February 16
  Written by Ariya Chaloemtoem
  */
+ 
+/*
+Concept: This programs visualizes miRNA sequences using blocks of rectangles of equal lenghths, colored by the base.
+Instructions: Click the screen to visualize the next miRNA (it is randomized)
+Data source: the mature miRNA fasta file (reference sequences) were obained from http://www.mirbase.org/ftp.shtml (a miRNA database).
+*/
 
 String strings[];   // declaring array for strings
 
