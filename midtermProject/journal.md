@@ -1,5 +1,11 @@
 # Midterm Project Journal
 
+<p align="center">
+  <img src=".png" height="330">
+  <img src=".png" height="330">
+  <img src=".gif" height="330">
+</p>
+
 ## Description
 For my midterm project, I decided to re-create a game I used to play in high school on the school bus almost every single day. The game that I am trying to recreate is called BBTan (by 111%). 
 
