@@ -1,9 +1,9 @@
 # Midterm Project Journal
 
 <p align="center">
-  <img src=".png" height="330">
-  <img src=".png" height="330">
-  <img src=".gif" height="330">
+  <img src="images/bbtan1.jpg" height="330">
+  <img src="images/bbtan2.jpg" height="330">
+  <img src="images/bbtan.gif" height="330">
 </p>
 
 ## Description
