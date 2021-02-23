@@ -5,7 +5,10 @@
   <img src="images/bbtan2.jpg" height="330">
   <img src="images/bbtan.gif" height="330">
 </p>
-*BBTan demo*
+
+<p align="center">
+<i> BBTan demo </i>
+</p>
 
 ## Description
 For my midterm project, I decided to re-create a game I used to play in high school on the school bus almost every single day. The game that I am trying to recreate is called BBTan (by 111%). 
