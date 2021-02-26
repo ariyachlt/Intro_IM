@@ -44,3 +44,9 @@ I applied the modifications I thought about yesterday to the display() function 
 <p align="center">
   <img src="images/ballBlockCollide.gif" height="330">
 </p>
+
+**Tuesday Feb 23, 2021** \
+Today, I did not make any major progress with the program. I mostly spent the time adding visual demos to the journal. I thought about adding chunks of code too but felt like it could be too much and too confusing as so many edits are made consistently. I figured it would be better to just comment the code well as I am already describing the process in quite a bit of detail. In terms of programming, I added text to the blocks so that the player can see how many more times the block has to be hit to break it. I mostly struggled with the positioning because I wanted to make sure the eveything was centered and that it also dynamically centers single and double (or triple) digit numbers. I found out that there is a textAlign() function in processing that can center the text vertically and horizontally. Below is the result:
+<p align="center">
+  <img src="images/addedText.gif" height="330">
+</p>
