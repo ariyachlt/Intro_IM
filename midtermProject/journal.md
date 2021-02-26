@@ -50,3 +50,16 @@ Today, I did not make any major progress with the program. I mostly spent the ti
 <p align="center">
   <img src="images/addedText.gif" height="330">
 </p>
+
+**Wednesday Feb 24, 2021** \
+For today, I decided to plan out the next steps I have to take. There are quite a few things that I still need to do before moving onto aesthetics:
+1. Shoot the ball(s) and an angle given by the mouseX and mouseY position
+2. Remove balls from the array when they fall to bottom of the rectangle (border)
+3. Move the blocks down 1 row after each round and add new blocks to the second row
+4. Write a method to detect when the block touches the bottom of the screen (game over)
+5. Keep track of the score (number of rounds)
+6. Build array of balls based on the round
+7. Write the screen with instructions and game over page that allows the player to restart if they want (there is no winning, it is a highscore system) 
+
+**Thursday Feb 25, 2021** \
+
