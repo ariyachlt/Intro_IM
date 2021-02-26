@@ -25,7 +25,7 @@ Today, I mostly spent my time doing some research on how to detect diagonal coll
 
 **Friday Feb 19, 2020** \
 <p align="center">
-  <p width="700">
+  <p style="width: 700px;">
     I began the coding component by creating a 480 by 720 canvas and creating 30-pixel borders on each side (except the top, which is 90 pixels) using rectangle. The ‘box’ where the game is contained is, therefore, 420 by 600 in size. This will make it easy for me to divide the width and height by 60 and create a 7 by 10 grid for the 60 by 60 squared blocks. I then create a ball class with the position, radius, speed, and angle attributes and made the constructor take two arguments: the starting x position and the angle of the ball. This is because at each round the ball will always start at the bottom of the screen, and shoots at an angle specified by the player. The x position of the ball will start at the center of the screen (as opposed to the left side in the original game), and for each round after the first, the starting x position will be determined by where the first ball falls. I wrote a function to move the ball by adding the speed in the x and y directions to the position of the ball. How much the ball moves in each direction depends on the angle. I tested the ball movement by creating an instance of it in setup() and displaying it in draw(). The ball movement seems to work fine except I forgot that if I wanted to work in degrees I need to call the radians() function to convert my initial degrees to radians so the balls were initially flying in very weird directions.
   </p>
   <img src="images/ballMovement.gif" height="300">
