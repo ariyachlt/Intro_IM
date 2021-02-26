@@ -62,4 +62,4 @@ For today, I decided to plan out the next steps I have to take. There are quite 
 7. Write the screen with instructions and game over page that allows the player to restart if they want (there is no winning, it is a highscore system) 
 
 **Thursday Feb 25, 2021** \
-
+Today I worked on the method to shoot the balls at an angle determined by the mouseX and mouseY position when the player clicks on the screen. I used a simple arctan(opposite/adjacent) calculation to get the angle from the mouse positions. Calculating the "opposite" and "adjacent" lengths was quite challenging because I had to take into account the position that the ball is being shot from (240, 690). I then used the atan() function to get the arctan of my ratio in radians to get the angle of the ball.
