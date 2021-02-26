@@ -76,9 +76,11 @@ In my attempt to debug the angle issue today, I printed out all the values at ev
 
 A sample block of code from the program is shown below (for calculating angles when the mouse is clicked on the right side of the screen):
 ```
+// check mouse position is inside the border
 if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
+  // check is mouse position is on the right half of the screen
   if(mouseX > width/2){
-    mouseAngle = -atan(( height - offset - mouseY )/( mouseX - width/2 ));
+    mouseAngle = -atan(( height - offset - mouseY )/( mouseX - width/2 ));  // angle calculation
     println(mouseX, mouseY);
     println(mouseX - width/2, height - offset - mouseY);
     println(( height - offset - mouseY )/( mouseX - width/2 ));
@@ -86,8 +88,19 @@ if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < 
   }
 }
 ```
-The first two lines printed appear correct and proved that my calculation for the opposite and adjacent lengths are correct. However, it seems that 
-
+The first two lines printed appear fine and proved that my calculation for the opposite and adjacent lengths were done corrently. However, it seems that the error appears when I try to divide the opposite length by the adjacent length. This calculation only returns a 0 or 1, which explains why my balls will only shoot at 0 or 45 degrees. My guess is that it has something to do with the variable type of mouseX and mouseY. I tried to type-cast it to a float using "(float)" but it did not work. I then played around with splitting the calculation into smaller parts (example below). 
+```
+// check mouse position is inside the border
+if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
+  // check is mouse position is on the right half of the screen
+  if(mouseX > width/2){
+    float opp = height-offset-mouseY;  // opposite length
+    float adj = mouseX - width/2;  // adjacent length
+    mouseAngle = -atan(opp/adj);  // angle calculation 
+  }
+}
+```
+For some reason I cannot explain, storing the opposite and adjacent lengths into float variables and then inputting them into the atan() functions solved the issue!
 <p align="center">
   <img src="images/aimShoot.gif" height="330">
 </p>
