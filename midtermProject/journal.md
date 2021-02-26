@@ -68,7 +68,26 @@ Today I worked on the method to shoot the balls at an angle determined by the mo
 </p>
 
 **Friday Feb 26, 2021** \
-- print out the values of my mouseX and mouse Y position, opposite and adjacent lengths, and atan() results.
-- <p align="center">
+In my attempt to debug the angle issue today, I printed out all the values at every step of the calculation. This includes:
+- the mouseX and mouse Y position
+- the opposite and adjacent lengths (taking into account all the tranformations)
+- the ratio opposite/adjacent
+- and finally, the atan() results
+
+A sample block of code from the program is shown below (for calculating angles when the mouse is clicked on the right side of the screen):
+```
+if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
+  if(mouseX > width/2){
+    mouseAngle = -atan(( height - offset - mouseY )/( mouseX - width/2 ));
+    println(mouseX, mouseY);
+    println(mouseX - width/2, height - offset - mouseY);
+    println(( height - offset - mouseY )/( mouseX - width/2 ));
+    println(mouseAngle);  
+  }
+}
+```
+The first two lines printed appear correct and proved that my calculation for the opposite and adjacent lengths are correct. However, it seems that 
+
+<p align="center">
   <img src="images/aimShoot.gif" height="330">
 </p>
