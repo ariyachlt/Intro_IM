@@ -143,6 +143,7 @@ void moveBlocks() {
   }
 }
 ```
+
 I then wrote a function to add the blocks in random columns of the second row with the round number displayed in the middle. The plan is to move any remaininng blocks down one row after each round, and add new blocks in the second row with the next round number displayed in the middle. This was the part that made me realise that sometimes it doesn't matter which order you call certain functions, but other times it really does. I made the mistake of calling the function to add the blocks before changing the round number when in should have been the other way round. Fortunately, this is a really easy fix.
 <p align="center">
   <img src="images/blockWrongNumbering.gif" height="330">
