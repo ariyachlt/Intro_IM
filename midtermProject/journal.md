@@ -107,9 +107,14 @@ For some reason I cannot explain, storing the opposite and adjacent lengths into
 </p>
 
 **Saturday Feb 27, 2021** \
+Today I began by working on making the balls shoot out one following the other when there is more than one ball. I struggled a little bit to call the function to shoot balls in the correct place. In my first attempt, I called the function in mouseClicked(). This did not work because I was using the modulo of frameCount to try an shoot the balls one after the other. I realised that in mouseClicked(), it only checks if the exact frameCount when I clicked is divisible by 6. I realised that it is something that I should probably call in draw. Therefore, I wrote two different boolean variables to check if the balls are shooting and if balls can be shot, and used that to call the shootBall() function. The first boolean (canShoot) is true when, within that round, the ball hasn't been shot yet. This is to prevent the player from being able to shoot again. The second boolean (shooting) is true when the mouse is clicked and the balls should be shooting. This is to actually shoot the balls. Once I figure out the shooting, I adjusted the checkWallCollision() function to remove the ball from the ArrayList when it hits the bottom of the border instead of reflecting it. Figuring out how to check each ball object and remove it was quite challenging because for some reason iterating through each ball in the ArrayLise using "for(Ball b: Balls)" didn't work but "for(int i = 0; i < Balls.size(); i++)" did.
 <p align="center">
   <img src="images/ballShootingFixed.gif" height="330">
   <img src="images/removeFallenBalls.gif" height="330">
+</p>
+
+I then moved on to 
+<p align="center">
   <img src="images/changingRounds.gif" height="330">
   <img src="images/blockFallFail.gif" height="330">
 </p>
