@@ -79,7 +79,7 @@ A sample block of code from the program is shown below (for calculating angles w
 ```Processing
 // check mouse position is inside the border
 if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
-  // check is mouse position is on the right half of the screen
+  // check if mouse position is on the right half of the screen
   if(mouseX > width/2){
     mouseAngle = -atan(( height - offset - mouseY )/( mouseX - width/2 ));  // angle calculation
     println(mouseX, mouseY);
@@ -93,7 +93,7 @@ The first two lines printed appear fine and proved that my calculation for the o
 ```Processing
 // check mouse position is inside the border
 if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
-  // check is mouse position is on the right half of the screen
+  // check if mouse position is on the right half of the screen
   if(mouseX > width/2){
     float opp = height-offset-mouseY;  // opposite length
     float adj = mouseX - width/2;  // adjacent length
@@ -129,7 +129,7 @@ I believe the error was in the way I looped and redefined the values in each arr
 void moveBlocks() {
   for(int i = 0; i < 9; i++){
     for(int j = 0; j < 7; j++){
-      grid.blocks[i + 1][j] = grid.blocks[i][j];
+      grid.blocks[i + 1][j] = grid.blocks[i][j];  // replace row below with current row
     }
   }
 }
@@ -138,7 +138,7 @@ void moveBlocks() {
 void moveBlocks() {
   for(int i = 9; i > 0; i--){
     for(int j = 6; j > -1; j--){
-      grid.blocks[i][j] = grid.blocks[i - 1][j];
+      grid.blocks[i][j] = grid.blocks[i - 1][j];  // replace current row with row above
     }
   }
 }
