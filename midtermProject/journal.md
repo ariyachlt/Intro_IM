@@ -24,7 +24,7 @@ For my version of the game, I hope to re-create a more simplified version of the
 Today, I mostly spent my time doing some research on how to detect diagonal collisions for my triangular blocks. I found out how I can check for diagonal collisions on a line ([here](http://www.jeffreythompson.org/collision-detection/line-circle.php)). This is something that I imagine can be applied to my triangles. However, it looks like an extra layer of complexity on top of the already quite complex game that I am trying to re-create so I decided to not include triangle blocks. Not only would I have to create triangles with 4 different combinations of adjacent legs, but I would also have to figure out a way to detect collisions on all sides of the 4 different possible triangles and take into account which direction the ball is coming from.
 
 **Friday Feb 19, 2020** \
-I began the coding component by creating a 480 by 720 canvas and creating 30-pixel borders on each side (except the top, which is 90 pixels) using rectangle. The ‘box’ where the game is contained is, therefore, 420 by 600 in size. This will make it easy for me to divide the width and height by 60 and create a 7 by 10 grid for the 60 by 60 squared blocks. I then create a ball class with the position, radius, speed, and angle attributes and made the constructor take two arguments: the starting x position and the angle of the ball. This is because at each round the ball will always start at the bottom of the screen, and shoots at an angle specified by the player. The x position of the ball will start at the center of the screen (as opposed to the left side in the original game), and for each round after the first, the starting x position will be determined by where the first ball falls. I wrote a function to move the ball by adding the speed in the x and y directions to the position of the ball. How much the ball moves in each direction depends on the angle. I tested the ball movement by creating an instance of it in setup() and displaying it in draw(). The ball movement seems to work fine except I forgot that if I wanted to work in degrees I need to call the radians() function to convert my initial degrees to radians so the balls were initially flying in very weird directions.
+I began the coding component by creating a 480 by 720 canvas and creating 30-pixel borders on each side (except the top, which is 90 pixels) using rectangle. The ‘box’ where the game is contained is, therefore, 420 by 600 in size. This will make it easy for me to divide the width and height by 60 and create a 7 by 10 grid for the 60 by 60 squared blocks. I then create a ball class with the position, radius, speed, and angle attributes and made the constructor take two arguments: the starting x position and the angle of the ball. This is because at each round the ball will always start at the bottom of the screen, and shoots at an angle specified by the player. The x position of the ball will start at the center of the screen (as opposed to the left side in the original game), and for each round after the first, the starting x position will be determined by where the first ball falls. I wrote a function to move the ball by adding the speed in the x and y directions to the position of the ball. How much the ball moves in each direction depends on the angle. I tested the ball movement by creating an instance of it in ```setup()``` and displaying it in ```draw()```. The ball movement seems to work fine except I forgot that if I wanted to work in degrees I need to call the ```radians()``` function to convert my initial degrees to radians so the balls were initially flying in very weird directions.
 <p align="center">
   <img src="images/ballMovement.gif" height="330">
 </p>
@@ -40,7 +40,7 @@ Now that I know my ball is moving at the correct angles, the next step is to che
 I did not end up making any modifications to the code today. However, I did realize that I can actually simplify the class containing the grid of blocks. Since the block should only appear when it has to be hit by a ball (when the number associated with the block is at least 1), I can modify the 2D array to actually store the number of times the block has to be hit instead of whether or not to display the block. This way, I can check if the number in the 2D array is greater than zero and display the block if it is.
 
 **Monday Feb 22, 2021** \
-I applied the modifications I thought about yesterday to the display() function in the class that deals with the grid of blocks and it worked as expected! The next step was to figure out how to check for collisions between the ball and each block. I figured I could write a class to define the interaction between the two but I was unsure how to code for the actual detection. I first tried to loop through each ball and each position in the grid array and check if the ball collides with the block. The main challenge came when I had to find a way to figure out how to detect which side of the block the ball collided with as that determines the axis to flip the direction of the ball. I tried to check the top, bottom, left, and right positions of the block but it was just so much additional code that I was not able to make work. A friend suggested that I could try using the current grid position and the upcoming grid position to account for the direction that the ball is coming. It was not a bad idea as this means that I can try to check for the current and next grid row and column the position of the ball is in and based on that information, I can reflect the ball when it collides with the block. As I was trying to implement the code, I realized it is no longer necessary to loop through the block array anymore. I can instead just loop through each ball and check if the next x and y position of the ball is non-zero (has a block). If it is, then I can check if the next and current grid row and column the ball is in is different or now. If the next and current rows are different, then the y-direction is reflected, and if the next and current columns are different, then the x-direction is reflected. This part to me very long to implement because there were so many aspects to think about. This working block collision code still needs to take into account the radius of the ball. This is something I will probably play around with later if I have time as it is something that is not neccessary for the game to work.
+I applied the modifications I thought about yesterday to the ```display()``` function in the class that deals with the grid of blocks and it worked as expected! The next step was to figure out how to check for collisions between the ball and each block. I figured I could write a class to define the interaction between the two but I was unsure how to code for the actual detection. I first tried to loop through each ball and each position in the grid array and check if the ball collides with the block. The main challenge came when I had to find a way to figure out how to detect which side of the block the ball collided with as that determines the axis to flip the direction of the ball. I tried to check the top, bottom, left, and right positions of the block but it was just so much additional code that I was not able to make work. A friend suggested that I could try using the current grid position and the upcoming grid position to account for the direction that the ball is coming. It was not a bad idea as this means that I can try to check for the current and next grid row and column the position of the ball is in and based on that information, I can reflect the ball when it collides with the block. As I was trying to implement the code, I realized it is no longer necessary to loop through the block array anymore. I can instead just loop through each ball and check if the next x and y position of the ball is non-zero (has a block). If it is, then I can check if the next and current grid row and column the ball is in is different or now. If the next and current rows are different, then the y-direction is reflected, and if the next and current columns are different, then the x-direction is reflected. This part to me very long to implement because there were so many aspects to think about. This working block collision code still needs to take into account the radius of the ball. This is something I will probably play around with later if I have time as it is something that is not neccessary for the game to work.
 <p align="center">
   <img src="images/ballBlockCollide.gif" height="330">
 </p>
@@ -53,7 +53,7 @@ Today, I did not make any major progress with the program. I mostly spent the ti
 
 **Wednesday Feb 24, 2021** \
 For today, I decided to plan out the next steps I have to take. There are quite a few things that I still need to do before moving onto aesthetics:
-1. Shoot the ball(s) and an angle given by the mouseX and mouseY position
+1. Shoot the ball(s) and an angle given by the ```mouseX``` and ```mouseY``` position
 2. Remove balls from the array when they fall to bottom of the rectangle (border)
 3. Move the blocks down 1 row after each round and add new blocks to the second row
 4. Write a method to detect when the block touches the bottom of the screen (game over)
@@ -62,7 +62,7 @@ For today, I decided to plan out the next steps I have to take. There are quite 
 7. Write the screen with instructions and game over page that allows the player to restart if they want (there is no winning, it is a highscore system) 
 
 **Thursday Feb 25, 2021** \
-Today I worked on the method to shoot the balls at an angle determined by the mouseX and mouseY position when the player clicks on the screen. I used a simple arctan(opposite/adjacent) calculation to get the angle from the mouse positions. Calculating the "opposite" and "adjacent" lengths was quite challenging because I had to take into account the position that the ball is being shot from (240, 690). I then used the atan() function to get the arctan of my ratio in radians and set the angle of the ball accordingly. However, I could not get the angle to work properly. I triple-checked my calculations but it seems that when the angle is less than 45 degrees the ball just bounces from left to right at the bottom of the screen. Even when the angle is greater than 45 degrees, it stills seems to be off by a few degrees from where my mouse was clicked. I will dedicate tomorrow to figuring out why this is happening.
+Today I worked on the method to shoot the balls at an angle determined by the ```mouseX``` and ```mouseY``` position when the player clicks on the screen. I used a simple arctan(opposite/adjacent) calculation to get the angle from the mouse positions. Calculating the "opposite" and "adjacent" lengths was quite challenging because I had to take into account the position that the ball is being shot from (240, 690). I then used the ```atan()``` function to get the arctan of my ratio in radians and set the angle of the ball accordingly. However, I could not get the angle to work properly. I triple-checked my calculations but it seems that when the angle is less than 45 degrees the ball just bounces from left to right at the bottom of the screen. Even when the angle is greater than 45 degrees, it stills seems to be off by a few degrees from where my mouse was clicked. I will dedicate tomorrow to figuring out why this is happening.
 <p align="center">
   <img src="images/angleDrawing.jpg" height="330">
   <img src="images/aimNotWorking.gif" height="330">
@@ -70,13 +70,13 @@ Today I worked on the method to shoot the balls at an angle determined by the mo
 
 **Friday Feb 26, 2021** \
 In my attempt to debug the angle issue today, I printed out all the values at every step of the calculation. This includes:
-- the mouseX and mouse Y position
+- the ```mouseX``` and ```mouseY``` position
 - the opposite and adjacent lengths (taking into account all the tranformations)
 - the ratio opposite/adjacent
-- and finally, the atan() results
+- and finally, the ```atan()``` results
 
 A sample block of code from the program is shown below (for calculating angles when the mouse is clicked on the right side of the screen):
-```
+```Processing
 // check mouse position is inside the border
 if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
   // check is mouse position is on the right half of the screen
@@ -89,8 +89,8 @@ if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < 
   }
 }
 ```
-The first two lines printed appear fine and proved that my calculation for the opposite and adjacent lengths were done corrently. However, it seems that the error appears when I try to divide the opposite length by the adjacent length. This calculation only returns a 0 or 1, which explains why my balls will only shoot at 0 or 45 degrees. My guess is that it has something to do with the variable type of mouseX and mouseY. I tried to type-cast it to a float using "(float)" but it did not work. I then played around with splitting the calculation into smaller parts (example below). 
-```
+The first two lines printed appear fine and proved that my calculation for the opposite and adjacent lengths were done corrently. However, it seems that the error appears when I try to divide the opposite length by the adjacent length. This calculation only returns a 0 or 1, which explains why my balls will only shoot at 0 or 45 degrees. My guess is that it has something to do with the variable type of mouseX and mouseY. I tried to type-cast it to a float using ```(float)``` but it did not work. I then played around with splitting the calculation into smaller parts (example below). 
+```Processing
 // check mouse position is inside the border
 if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < height - offset){
   // check is mouse position is on the right half of the screen
@@ -101,29 +101,49 @@ if(mouseX > offset && mouseX < width - offset && mouseY > offsetTop && mouseY < 
   }
 }
 ```
-For some reason I cannot explain, storing the opposite and adjacent lengths into float variables and then inputting them into the atan() functions solved the issue!
+For some reason I cannot explain, storing the opposite and adjacent lengths into float variables and then inputting them into the ```atan()``` functions solved the issue!
 <p align="center">
   <img src="images/aimShoot.gif" height="330">
 </p>
 
 **Saturday Feb 27, 2021** \
-Today I began by working on making the balls shoot out one following the other when there is more than one ball. I struggled a little bit to call the function to shoot balls in the correct place. In my first attempt, I called the function in mouseClicked(). This did not work because I was using the modulo of frameCount to try an shoot the balls one after the other. I realised that in mouseClicked(), it only checks if the exact frameCount when I clicked is divisible by 6. I realised that it is something that I should probably call in draw. Therefore, I wrote two different boolean variables to check if the balls are shooting and if balls can be shot, and used that to call the shootBall() function. The first boolean (canShoot) is true when, within that round, the ball hasn't been shot yet. This is to prevent the player from being able to shoot again. The second boolean (shooting) is true when the mouse is clicked and the balls should be shooting. This is to actually shoot the balls. Once I figured out the shooting, I adjusted the checkWallCollision() function to remove the ball from the ArrayList when it hits the bottom of the border instead of reflecting it. Figuring out how to check each ball object and remove it was quite challenging because for some reason iterating through each ball in the ArrayLise using "for(Ball b: Balls)" didn't work but "for(int i = 0; i < Balls.size(); i++)" did.
+Today I began by working on making the balls shoot out one following the other when there is more than one ball. I struggled a little bit to call the function to shoot balls in the correct place. In my first attempt, I called the function in ```mouseClicked()```. This did not work because I was using the modulo of frameCount to try an shoot the balls one after the other. I realised that in mouseClicked(), it only checks if the exact frameCount when I clicked is divisible by 6. I realised that it is something that I should probably call in draw. Therefore, I wrote two different boolean variables to check if the balls are shooting and if balls can be shot, and used that to call the ```shootBall()``` function. The first boolean ```canShoot``` is true when, within that round, the ball hasn't been shot yet. This is to prevent the player from being able to shoot again. The second boolean ```shooting``` is true when the mouse is clicked and the balls should be shooting. This is to actually shoot the balls. Once I figured out the shooting, I adjusted the ```checkWallCollision()``` function to remove the ball from the ```ArrayList``` when it hits the bottom of the border instead of reflecting it. Figuring out how to check each ball object and remove it was quite challenging because for some reason iterating through each ball in the ```ArrayList``` using ```for(Ball b: Balls)``` didn't work but ```for(int i = 0; i < Balls.size(); i++)``` did.
 <p align="center">
   <img src="images/ballShootingFixed.gif" height="330">
   <img src="images/removeFallenBalls.gif" height="330">
 </p>
 
-I then moved on to setting the number of balls in the ArrayList to the round it is in. The round number is displayed at the top. I was initially going to make it so that the ball in the next round is shot from the X position where the first ball in the current round fell. However, I decided to keep everything in the center as I would have to re-do the angle calculations and did not want to end up spending too much time on such a minor detail.
+I then moved on to setting the number of balls in the ```ArrayList``` to the round it is in. The round number is displayed at the top. I was initially going to make it so that the ball in the next round is shot from the X position where the first ball in the current round fell. However, I decided to keep everything in the center otherwise I would have to re-do the angle calculations and did not want to end up spending too much time on such a minor detail.
 <p align="center">
   <img src="images/changingRounds.gif" height="330">
 </p>
 
-
+My next step was to make the blocks drop one row after each round. In my first attempt, the blocks would drop all the way to the bottom (as shown in the left demo).
 <p align="center">
   <img src="images/blockFallFail.gif" height="330">
   <img src="images/blockFallWorks.gif" height="330">
 </p>
+I believe the error was in the way I looped and redefined the values in each array position. In my first try, I looped through the 2D array from top to bottom and redifined the onw beneath as the current one (example below). This meant that I was doing the exact same thing to the next row which is the one I had just previously replace. I figured I could try and work in reverse and loop from the bottom upwards and this fixed it!
+```Processing
+// This didn't work
+void moveBlocks() {
+  for(int i = 0; i < 9; i++){
+    for(int j = 0; j < 7; j++){
+      grid.blocks[i + 1][j] = grid.blocks[i][j];
+    }
+  }
+}
 
+// This worked
+void moveBlocks() {
+  for(int i = 9; i > 0; i--){
+    for(int j = 6; j > -1; j--){
+      grid.blocks[i][j] = grid.blocks[i - 1][j];
+    }
+  }
+}
+```
+I then wrote a function to add the blocks in random columns of the second row with the round number displayed in the middle. The plan is to move any remaininng blocks down one row after each round, and add new blocks in the second row with the next round number displayed in the middle. This was the part that made me realise that sometimes it doesn't matter which order you call certain functions, but other times it really does. I made the mistake of calling the function to add the blocks before changing the round number when in should have been the other way round. Fortunately, this is a really easy fix.
 <p align="center">
   <img src="images/blockWrongNumbering.gif" height="330">
   <img src="images/blockCorrectNumbering.gif" height="330">
