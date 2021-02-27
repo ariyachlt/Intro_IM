@@ -123,7 +123,7 @@ My next step was to make the blocks drop one row after each round. In my first a
   <img src="images/blockFallFail.gif" height="330">
   <img src="images/blockFallWorks.gif" height="330">
 </p>
-I believe the error was in the way I looped and redefined the values in each array position. In my first try, I looped through the 2D array from top to bottom and redifined the onw beneath as the current one (example below). This meant that I was doing the exact same thing to the next row which is the one I had just previously replace. I figured I could try and work in reverse and loop from the bottom upwards and this fixed it!
+I believe the error was in the way I looped and redefined the values in each array position. In my first try, I looped through the 2D array from top to bottom and redifined the onw beneath as the current one (example below). This meant that I was doing the exact same thing to the next row which is the one I had just previously replace. I figured I could try and work in reverse and loop from the bottom upwards and this fixed it.
 ```Processing
 // This didn't work
 void moveBlocks() {
