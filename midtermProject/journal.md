@@ -105,3 +105,18 @@ For some reason I cannot explain, storing the opposite and adjacent lengths into
 <p align="center">
   <img src="images/aimShoot.gif" height="330">
 </p>
+
+**Saturday Feb 27, 2021** \
+<p align="center">
+  <img src="images/ballShootingFixed.gif" height="330">
+  <img src="images/removeFallenBalls.gif" height="330">
+  <img src="images/changingRounds.gif" height="330">
+  <img src="images/blockFallFail.gif" height="330">
+</p>
+
+<p align="center">
+  <img src="images/blockFallWorks.gif" height="330">
+  <img src="images/ballShootingFixed.gif" height="330">
+  <img src="images/blockWrongNumbering.gif" height="330">
+  <img src="images/blockCorrectNumbering.gif" height="330">
+</p>
