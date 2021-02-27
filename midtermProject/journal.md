@@ -116,7 +116,6 @@ For some reason I cannot explain, storing the opposite and adjacent lengths into
 
 <p align="center">
   <img src="images/blockFallWorks.gif" height="330">
-  <img src="images/ballShootingFixed.gif" height="330">
   <img src="images/blockWrongNumbering.gif" height="330">
   <img src="images/blockCorrectNumbering.gif" height="330">
 </p>
