@@ -125,7 +125,25 @@ My next step was to make the blocks drop one row after each round. In my first a
 </p>
 I believe the error was in the way I looped and redefined the values in each array position. In my first try, I looped through the 2D array from top to bottom and redifined the onw beneath as the current one (example below). This meant that I was doing the exact same thing to the next row which is the one I had just previously replace. I figured I could try and work in reverse and loop from the bottom upwards and this fixed it.
 
-ljhljh
+```
+// This didn't work
+void moveBlocks() {
+  for(int i = 0; i < 9; i++){
+    for(int j = 0; j < 7; j++){
+      grid.blocks[i + 1][j] = grid.blocks[i][j];  // replace row below with current row
+    }
+  }
+}
+
+// This worked
+void moveBlocks() {
+  for(int i = 9; i > 0; i--){
+    for(int j = 6; j > -1; j--){
+      grid.blocks[i][j] = grid.blocks[i - 1][j];  // replace current row with row above
+    }
+  }
+}
+```
 
 I then wrote a function to add the blocks in random columns of the second row with the round number displayed in the middle. The plan is to move any remaininng blocks down one row after each round, and add new blocks in the second row with the next round number displayed in the middle. This was the part that made me realise that sometimes it doesn't matter which order you call certain functions, but other times it really does. I made the mistake of calling the function to add the blocks before changing the round number when in should have been the other way round. Fortunately, this is a really easy fix.
 <p align="center">
