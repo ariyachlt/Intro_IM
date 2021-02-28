@@ -157,7 +157,12 @@ I then wrote a function to add the blocks in random columns of the second row wi
 <p align="center">
   <img src="images/shooterAdded.gif" height="330">
 </p>
+
 - game over condition, main/instruction screen, click to replay
+<p align="center">
+  <img src="images/gameOverOld.png" height="330">
+</p>
+
 - aesthetics (FINALLY): change color scheme, added drawing in main menu, added sounds upon collision, cursor changes when covering over clickable area
 <p align="center">
   <img src="images/mainMenu.png" height="330">
