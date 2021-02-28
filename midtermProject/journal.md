@@ -152,5 +152,9 @@ I then wrote a function to add the blocks in random columns of the second row wi
 </p>
 
 **Sunday Feb 28, 2021** \
+- shooter added
+<p align="center">
+  <img src="images/shooterAdded.gif" height="330">
+</p>
 - game over condition, main/instruction screen, click to replay
 - aesthetics (FINALLY)
