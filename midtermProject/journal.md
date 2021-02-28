@@ -159,4 +159,9 @@ I then wrote a function to add the blocks in random columns of the second row wi
 </p>
 - game over condition, main/instruction screen, click to replay
 - aesthetics (FINALLY)
-- 
+<p align="center">
+  <img src="images/mainMenu.png" height="330">
+  <img src="images/instructions.png" height="330">
+  <img src="images/playingGame.gif" height="330">
+  <img src="images/gameOver.png" height="330">
+</p>
