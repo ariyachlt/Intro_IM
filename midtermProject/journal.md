@@ -153,8 +153,10 @@ I then wrote a function to add the blocks in random columns of the second row wi
 
 **Sunday Feb 28, 2021** \
 - shooter added
+- limited angle to 20 pixels from ground (if try to shoot lower it automatically sets opp to 20 and calculates the angle from there. this is to prevent balls from bouncing only from side to side)
 <p align="center">
   <img src="images/shooterAdded.gif" height="330">
 </p>
 - game over condition, main/instruction screen, click to replay
 - aesthetics (FINALLY)
+- 
