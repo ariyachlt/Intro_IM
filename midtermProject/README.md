@@ -68,7 +68,7 @@ Click [here](https://youtu.be/lcrsGA2HkJk) to watch it with sound.
 The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
 ## Challenges
-
+I faced so many more challenges that I expected to during this process. Most of them led me to either simplify or completely remove certain components (as described above). 
 
 ## Discoveries
 
