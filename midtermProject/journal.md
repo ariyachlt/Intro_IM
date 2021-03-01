@@ -152,8 +152,7 @@ I then wrote a function to add the blocks in random columns of the second row wi
 </p>
 
 **Sunday Feb 28, 2021** \
-Today I worked on adding the shooter to give an indication to where the player is aiming. This tiny detail took way more time than I expected because the I expected everything to be exactly the same as in the ```getAngle()``` function I wrote to get the angle the balls should travel at. Turns out my error was in not using the correct translation (accounting for the radius of the ball incorrectly). 
-- limited angle to 20 pixels from ground (if try to shoot lower it automatically sets opp to 20 and calculates the angle from there. this is to prevent balls from bouncing only from side to side)
+Today I worked on adding the shooter to give an indication to where the player is aiming. This tiny detail took way more time than I expected because the I expected everything to be exactly the same as in the ```getAngle()``` function I wrote to get the angle the balls should travel at. Turns out my error was in not using the correct translation (accounting for the radius of the ball incorrectly). I also wrote a condition to limit ```opp``` (the Y length used to calculate the angle) to 20 pixels to prevent the balls from bouncing back and forth horizontally indefinitely (and applied it to the shooter angle as well). A flaw I created was that the ball would not shoot if the the mouse is clicked within those 20 pixel height. Therefore, I added another condition to automatically shoot the ball at the angle of the 20 pixel threshold if the player clicks at an angle lower than allowed.
 <p align="center">
   <img src="images/shooterAdded.gif" height="330">
 </p>
