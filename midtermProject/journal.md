@@ -157,13 +157,15 @@ Today I worked on adding the shooter to give an indication to where the player i
   <img src="images/shooterAdded.gif" height="330">
 </p>
 
-- game over condition, main/instruction screen, click to replay
+I then moved on to writing the game over condition. Because there is no winning in this game (you survive for as many rounds as you can) I only had to define a losing condition to check. I wrote a ```checkGameOver()``` function in the ```interactionSystem``` class that loops through each column in the grid and checks if the bottom most row is empty. If it isn't, then ```gameOver = true```. This function is called after each time the blocks are moved down one row.
 <p align="center">
   <img src="images/gameOverOld.png" height="330">
 </p>
 
-**Monday Mar 1, 2020** \
-- aesthetics (FINALLY): change color scheme, added drawing in main menu, added sounds upon collision, cursor changes when covering over clickable area
+I decided to leave the instructions page and buttons to switch screens until last as I wanted to make sure I have the main game mechanics down first. For the instruction page and switching of screen modes, I simply wrote different functions to define the main menu (0), instructions page (1), game (2), and game over (3) display. I then defined a variable called ```screen``` to call on each display when needed. I also added various conditions under the ```mouseClicked()```function to make my buttons "clickable."
+
+Now I am finally move on to adding sounds and aesthetics! I added 3 different sounds - for when the button is clicked, when a ball collides with a block, and when the game is over. I got these sounds from [Zapsplat](https://www.zapsplat.com/). I also created a drawing of the BBTan logo and change the theme to a darker theme because the colors look nicer with a very dark background. To make it clear to the player which parts of the screen are clickable, I wrote a function to check for those locations and change the cursor to a hand.
+
 <p align="center">
   <img src="images/mainMenu.png" height="330">
   <img src="images/intructions.png" height="330">
@@ -171,7 +173,29 @@ Today I worked on adding the shooter to give an indication to where the player i
   <img src="images/gameOver.png" height="330">
 </p>
 
-- colors?
+I played around with coloring the blocks because the main game page was looking a little dull. I decided color the block based on how many times it has to be hit to break relative to the level it is in (example below). 
+```Processing
+for(int i = 0; i < 10; i++){
+  for(int j = 0; j < 7; j++){
+    if(blocks[i][j] > 0){
+      color c = 20;
+      if(blocks[i][j] == 1 || blocks[i][j] < round/8){
+        c = color(50, 150, 245);
+      } else if(blocks[i][j] < round/4){
+        c = color(40, 180, 40);
+      } else if(blocks[i][j] >= round/4 && blocks[i][j] < round/2){
+        c = color(230, 180, 25);
+      } else if(blocks[i][j] >= round/2 && blocks[i][j] < 3*round/4){
+        c = color(240, 105, 30);
+      } else if(blocks[i][j] >= 3*round/4 && blocks[i][j] < round){
+        c = color(235, 30, 50);
+      } else if(blocks[i][j] == round){
+        c = color(245, 30, 115);
+      }
+...
+```
+
+The color ranges from blue to red where blue indicates that it doesn't require that many hits to break while red is on the opposite end of that spectrum. Below is the final result:
 <p align="center">
   <img src="images/colorAdded.gif" height="330">
   <img src="images/gameOverColored.png" height="330">
