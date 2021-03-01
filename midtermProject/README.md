@@ -48,10 +48,11 @@ Most modifications are due to extra challenges in defining conditions or calcula
   <img src="images/gameDemo.gif" width="420">
 </p>
 
-Click ![here](https://youtu.be/lcrsGA2HkJk) for a video with sound
-
+Click [here](https://youtu.be/lcrsGA2HkJk) for a video with sound.
 
 ## Process
+1. 
+The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
 ## Challenges and Modifications
 
