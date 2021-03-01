@@ -44,7 +44,9 @@ Most modifications are due to extra challenges in defining conditions or calcula
 4. Beat your own/others' highscore!
 
 ## Demo
-- video
+<iframe width="420" height="315"
+src="https://youtu.be/lcrsGA2HkJk">
+</iframe>
 
 ## Process
 
