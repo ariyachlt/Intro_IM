@@ -152,7 +152,7 @@ I then wrote a function to add the blocks in random columns of the second row wi
 </p>
 
 **Sunday Feb 28, 2021** \
-- shooter added
+Today I worked on adding the shooter to give an indication to where the player is aiming. This tiny detail took way more time than I expected because the I expected everything to be exactly the same as in the ```getAngle()``` function I wrote to get the angle the balls should travel at. Turns out my error was in not using the correct translation (accounting for the radius of the ball incorrectly). 
 - limited angle to 20 pixels from ground (if try to shoot lower it automatically sets opp to 20 and calculates the angle from there. this is to prevent balls from bouncing only from side to side)
 <p align="center">
   <img src="images/shooterAdded.gif" height="330">
@@ -163,6 +163,7 @@ I then wrote a function to add the blocks in random columns of the second row wi
   <img src="images/gameOverOld.png" height="330">
 </p>
 
+**Monday Mar 1, 2020** \
 - aesthetics (FINALLY): change color scheme, added drawing in main menu, added sounds upon collision, cursor changes when covering over clickable area
 <p align="center">
   <img src="images/mainMenu.png" height="330">
