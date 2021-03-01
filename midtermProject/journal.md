@@ -173,27 +173,7 @@ Now I am finally move on to adding sounds and aesthetics! I added 3 different so
   <img src="images/gameOver.png" height="330">
 </p>
 
-I played around with coloring the blocks because the main game page was looking a little dull. I decided color the block based on how many times it has to be hit to break relative to the level it is in (example below). 
-```Processing
-for(int i = 0; i < 10; i++){
-  for(int j = 0; j < 7; j++){
-      ...
-      if(blocks[i][j] == 1 || blocks[i][j] < round/8){
-        c = color(50, 150, 245);
-      } else if(blocks[i][j] < round/4){
-        c = color(40, 180, 40);
-      } else if(blocks[i][j] >= round/4 && blocks[i][j] < round/2){
-        c = color(230, 180, 25);
-      } else if(blocks[i][j] >= round/2 && blocks[i][j] < 3*round/4){
-        c = color(240, 105, 30);
-      } else if(blocks[i][j] >= 3*round/4 && blocks[i][j] < round){
-        c = color(235, 30, 50);
-      } else if(blocks[i][j] == round){
-        c = color(245, 30, 115);
-      }
-```
-
-The color ranges from blue to red where blue indicates that it doesn't require that many hits to break while red is on the opposite end of that spectrum. Below is the final result:
+I played around with coloring the blocks because the main game page was looking a little dull. I decided color the block based on how many times it has to be hit to break relative to the level it is in (example below). The color ranges from blue to red where blue indicates that it doesn't require that many hits to break while red is on the opposite end of that spectrum. Below is the final result:
 <p align="center">
   <img src="images/colorAdded.gif" height="330">
   <img src="images/gameOverColored.png" height="330">
