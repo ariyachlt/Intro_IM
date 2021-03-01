@@ -54,7 +54,7 @@ Click [here](https://youtu.be/lcrsGA2HkJk) to watch it with sound.
 1. 
 The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
-## Challenges and Modifications
+## Challenges
 
 
 ## Discoveries
