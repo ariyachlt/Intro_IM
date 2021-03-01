@@ -49,7 +49,7 @@ Most modifications are due to extra challenges in defining conditions or calcula
 </p>
 
 <p align="center">
-[Click here](https://youtu.be/lcrsGA2HkJk) for a video with sound
+[https://youtu.be/lcrsGA2HkJk](Click here) for a video with sound
 </p>
 
 ## Process
