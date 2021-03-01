@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Left:</b> miR-30a-5p, <b>Right:</b> miR-507.
+  <b>Left to Right:</b> Main menu, Instructions screen, Game screen, Game over display.
 </p>
 
 ## Description
