@@ -35,7 +35,7 @@ Things I modified:
 - Defined the number of balls as the current round instead
 - Balls only shoot from the center of the ground instead of where the first ball in each round falls
 
-Most modifications are due to extra challenges in defining conditions or calculations. They add too many layers of complexity on top of a programs that is already quite time consuming to recreate.
+Most modifications are due to extra challenges in defining conditions or calculations. They add too many layers of complexity on top of a program that is already quite time consuming to recreate.
 
 ## Instructions
 1. Move the mouse to aim
@@ -51,7 +51,10 @@ Most modifications are due to extra challenges in defining conditions or calcula
 Click [here](https://youtu.be/lcrsGA2HkJk) to watch it with sound.
 
 ## Process
-1. 
+1. I first created a 420 by 600 'box' inside the 480 by 720 canvas where the game will be contained in. This box region was then be split into 10 rows and 7 columns where 60 by 60 blocks will fit.
+2. I defined a ball class which will take one argument (modified from previously two: angle and initial x position), the angle, and wrote functions to move the ball by the given angle, and reflect off walls (the 'box').
+3. 
+4.  
 The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
 ## Challenges
