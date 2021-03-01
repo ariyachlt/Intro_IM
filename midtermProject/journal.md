@@ -177,8 +177,7 @@ I played around with coloring the blocks because the main game page was looking 
 ```Processing
 for(int i = 0; i < 10; i++){
   for(int j = 0; j < 7; j++){
-    if(blocks[i][j] > 0){
-      color c = 20;
+      ...
       if(blocks[i][j] == 1 || blocks[i][j] < round/8){
         c = color(50, 150, 245);
       } else if(blocks[i][j] < round/4){
@@ -192,7 +191,6 @@ for(int i = 0; i < 10; i++){
       } else if(blocks[i][j] == round){
         c = color(245, 30, 115);
       }
-...
 ```
 
 The color ranges from blue to red where blue indicates that it doesn't require that many hits to break while red is on the opposite end of that spectrum. Below is the final result:
