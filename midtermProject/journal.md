@@ -170,3 +170,9 @@ I then wrote a function to add the blocks in random columns of the second row wi
   <img src="images/playingGame.gif" height="330">
   <img src="images/gameOver.png" height="330">
 </p>
+
+- colors?
+<p align="center">
+  <img src="images/colorAdded.gif" height="330">
+  <img src="images/gameOverColored.png" height="330">
+</p>
