@@ -178,3 +178,6 @@ I played around with coloring the blocks because the main game page was looking 
   <img src="images/colorAdded.gif" height="330">
   <img src="images/gameOverColored.png" height="330">
 </p>
+
+**Sunday Mar 1, 2021** \
+There was one last thing I still wanted to do. I thought it would be nice to be able to keep track of a highscore since there is no winning condition. I created a .txt file and initiated it with a 1 since the game begins with the first round. The main difficulty here was in reading the line in the file as ```readLine()``` doesn't work when it is not in a loop and gives a IOException error. I found a chunk of code online that helped me solve the issue by using ```try``` and ```catch``` statements. Once I managed to read the line, I had to convert from string to integer to be able to use it. Writing the file with was much simpler. And that is it for my project. Final demonstrations are in the README file.
