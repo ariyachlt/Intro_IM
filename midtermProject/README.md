@@ -48,9 +48,7 @@ Most modifications are due to extra challenges in defining conditions or calcula
   <img src="images/gameDemo.gif" width="420">
 </p>
 
-<p align="center">
-[https://youtu.be/lcrsGA2HkJk](Click here) for a video with sound
-</p>
+[Click here](https://youtu.be/lcrsGA2HkJk) for a video with sound
 
 ## Process
 
