@@ -18,7 +18,8 @@ For my midterm project, I decided to re-create a game I used to play in high sch
 BBTan is a ball shooting game that destroys blocks when they are hit. However, there is a twist. These ‘blocks’ come in two shapes: squares and triangles with a number inside them which indicates how many times it has to be hit to be destroyed. The player first starts by aiming the ball at some angle. Each time a block is hit, the number is reduced by one, and the block is considered destroyed when the number reaches zero. After each round of shooting, the surviving blocks move down one grid row, and a new row of blocks is created. The number inside each new row of blocks depends on the round, and the player score is the number of rounds the player survives before the bottom-most blocks reach the bottom of the screen. The original game also has a bunch of power-ups that the player can hit with current balls to increase the number of balls thrown in each round, scatter the balls in random directions, or slash entire rows or columns.
 
 **What does my version of it look like?** \
-My version of the game is a little more simplified, with most of the key elements intact. \ \
+My version of the game is a little more simplified, with most of the key elements intact. My experience playing this game allowed me to make an informed decision of what to keep and what to modify so that the game retains the key components and remains playable.  \
+\
 Things that stayed the same:
 - The number of balls inside the block is the number of hits required to break it
 - The first row of blocks begins in the 'second' row
