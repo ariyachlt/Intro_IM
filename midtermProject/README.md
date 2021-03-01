@@ -77,7 +77,7 @@ I faced way more challenges that expected in the making of this game. Most of th
 - Some balls still go through gaps between blocks and I couldn't figure out a way to fix it. However, it happens only every once in a while at very specific angles and isn't a major obstacle in the functionality of the game. After spinning my head trying to figure it out, I gave up and ended up just created visible gaps between the blocks to make it look a little less weird.
 - How to loop the 2D array to "move" the blocks down one row after each round (defining the correct init, test and update in the ```for``` loop)
 - Finding sounds I actually like/fit the game
-- Reading the text file containing the highscore and converting it from a string to integer to it can be used (I had to try many different functions)
+- Reading the text file containing the highscore and converting it from a string to integer so it can be used (I had to try many different functions)
 - The color of the blocks was challenging to set because I don't think I wrote my class and the program in a way that allows me to easily set the block colors. Instead of creating a nice gradient, I ended up just defining the color of each block as one of the 6 preset colors based on the number in the block relative to the round.
 
 ## Discoveries
