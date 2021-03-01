@@ -68,7 +68,10 @@ Click [here](https://youtu.be/lcrsGA2HkJk) to watch it with sound.
 The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
 ## Challenges
-I faced so many more challenges that I expected to during this process. Most of them led me to either simplify or completely remove certain components (as described above). 
+I faced so many more challenges that I expected to during this process. Most of them led me to either simplify or completely remove certain components (as described above). Below is a summary of my challenges that can also be read in full detail in the [journal](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md):
+
+- Keeping track of transformations and colors (many times I just ended up defaulting to ```push()``` and ```pop()```)
+- Remembering basic trigonometry :expressionless: (could have saved me quite a bit of time)
 
 ## Discoveries
 
