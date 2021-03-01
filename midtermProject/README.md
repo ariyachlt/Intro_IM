@@ -87,6 +87,6 @@ I discovered that this took way more time than I expected but I was too far in w
 - ```.println()```, ```.flush()``` and ```.close()```: Allows you to write to the file, and make the file correctly.
 
 ## Moving Forward
-If I had more time I would try to figure out why the balls are going through these invisible 'gaps' and re-write the grid class so that it has a color attribute. It would also be interesting to add some animations when the blocks break (ex. tiny colorful squares breaking off) like in the actual game. It looks like something that can be done using particle systems. Overall, I am quite happy with the final result.
+Overall, I am already quite happy with the final result. However, if I had more time I would try to figure out why the balls are going through these invisible 'gaps' and re-write the grid class so that it has a color attribute. It would also be interesting to add some animations when the blocks break (ex. tiny colorful squares breaking off) like in the actual game. It looks like something that can be done using particle systems.
 
 
