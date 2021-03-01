@@ -51,10 +51,20 @@ Most modifications are due to extra challenges in defining conditions or calcula
 Click [here](https://youtu.be/lcrsGA2HkJk) to watch it with sound.
 
 ## Process
-1. I first created a 420 by 600 'box' inside the 480 by 720 canvas where the game will be contained in. This box region was then be split into 10 rows and 7 columns where 60 by 60 blocks will fit.
-2. I defined a ball class which will take one argument (modified from previously two: angle and initial x position), the angle, and wrote functions to move the ball by the given angle, and reflect off walls (the 'box').
-3. 
-4.  
+1. Created a 420 by 600 "box" inside the 480 by 720 canvas where the game will be contained in. This box region was then be split into 10 rows and 7 columns where 60 by 60 blocks will fit.
+2. Defined a ball class which will take one argument (modified from previously two: angle and initial x position), the angle, and wrote functions to move the ball by the given angle, and reflect off walls (the 'box').
+3. Wrote a grid class which creates a 2D array with 10 rows and 7 columns and a function within the class to display the block if the number inside it is not 0 (a block exists and needs to be hit).
+4. Created a class to defined the interactions within the game called ```interactionSystem``` and write a function to check for collisions between the balls and the blocks.
+5. Wrote functions to calculate the initial angle of the ball using the ```mouseX``` and ```mouseY``` positions, add as many ball objects into an ArrayList as the round number, and shoot one ball at a time using the modulo of ```frameCount```.
+6. Adjusted the wall collision function to remove the ball when it hits the ground instead of reflect.
+7. Wrote functions to add blocks to the second row of the game and move blocks down one row after each round.
+8. Created a shooter so players can visualize the shooting angle.
+9. Defined a game over condition by checking if any columns in the bottom row is not zero.
+10. Created a main menu and instructions page, and added ```mouseClicked()``` events to the make the buttons "clickable".
+11. Added sounds and wrote a function to change the cursor to a hand when hovering over a clickable area.
+12. Played around with aesthetics!
+13. Added a component to store and keep track of highscore.
+
 The process is describe in full detail [here](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md).
 
 ## Challenges
