@@ -46,7 +46,7 @@ InteractionSystem System;
 void setup() {
   size(480, 720);
 
-  BBTan = loadImage("BBTanDrawing.png");  // loadign BBTan image
+  BBTan = loadImage("BBTanDrawing.png");  // loading BBTan image
 
   buttonSound = new SoundFile(this, "buttonSound.mp3");  // load sound file for when button is clicked
   hitSound = new SoundFile(this, "hitSound.mp3");  // load sound file for when ball collides with block
