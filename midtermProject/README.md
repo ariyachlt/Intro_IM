@@ -44,9 +44,10 @@ Most modifications are due to extra challenges in defining conditions or calcula
 4. Beat your own/others' highscore!
 
 ## Demo
-<video width="420" height="315"
-src="https://youtu.be/lcrsGA2HkJk">
-</video>
+<p align="center">
+  <img src="images/gameDemo.gif" width="420">
+</p>
+![Click here](https://youtu.be/lcrsGA2HkJk) to watch with sound
 
 ## Process
 
