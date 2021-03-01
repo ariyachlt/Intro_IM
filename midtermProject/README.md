@@ -1,10 +1,10 @@
 # Midterm Project (Remake of BBTan)
 
 <p align="center">
-  <img src="images/finalMainMenu.png" height="340">
-  <img src="images/finalInstructions.png" height="340">
-  <img src="images/finalGame.png" height="340">
-  <img src="images/finalGameOver.png" height="340">
+  <img src="images/finalMainMenu.png" height="350">
+  <img src="images/finalInstructions.png" height="350">
+  <img src="images/finalGame.png" height="350">
+  <img src="images/finalGameOver.png" height="350">
 </p>
 
 <p align="center">
