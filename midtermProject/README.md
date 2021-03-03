@@ -72,7 +72,7 @@ I faced way more challenges that expected in the making of this game. Most of th
 
 - Keeping track of transformations and colors (many times I just ended up defaulting to ```push()``` and ```pop()```)
 - Remembering basic trigonometry :expressionless: (could have saved me quite a bit of time)
-- Consistently getting ```ArrayIndexOutOfBoundsException``` and ```NullPointerException``` errors when trying things out, causing the program to crash (maybe I just need to think a little more before I run chunks of code?)
+- Consistently getting ```ArrayIndexOutOfBoundsException``` and ```NullPointerException``` errors when trying things out, causing the program to crash (maybe I just need to think a little more before I run my code?)
 - Defining the collision condition between the blocks and the balls (solution is describe in the [journal](https://github.com/ariyachlt/Intro_IM/blob/main/midtermProject/journal.md))
 - Some balls still go through gaps between blocks and I couldn't figure out a way to fix it. However, it happens only every once in a while at very specific angles and isn't a major obstacle in the functionality of the game. After spinning my head trying to figure it out, I gave up and ended up just created visible gaps between the blocks to make it look a little less weird.
 - How to loop the 2D array to "move" the blocks down one row after each round (defining the correct init, test and update in the ```for``` loop)
@@ -83,8 +83,9 @@ I faced way more challenges that expected in the making of this game. Most of th
 ## Discoveries
 I discovered that this took way more time than I expected but I was too far in when I realised so I just had to keep going. This project made me realise how important it is to stay organized and consistent as it was very easy for me to get lost in my functions and transformations. Much of what I wrote can probably be compressed and made more efficient but at some point I was just to deep into the process to change up everything. Thank you ```push()``` and ```pop()``` for coming to my rescue. Furthermore, I realised that creating a lot of boolean variables to use as a "checkpoints" at various locations made it easy for me to define when to call and perform certain functions and actions. During this process, I also came across a few new functions:
 - ```textAlign()```: can take up to two arguments to align the text vertically and horizontally (so much easier than CSS)
-- ```createReader()``` and ```createWrite()```: Creates a ```BufferedReader``` object that can be used to read files line-by-line and creates a new file in the sketch folder, allowing me to write to it
+- ```createReader()``` and ```createWriter()```: Creates a ```BufferedReader``` object that can be used to read files line-by-line and creates a new file in the sketch folder, allowing me to write to it
 - ```.println()```, ```.flush()``` and ```.close()```: Allows you to write to the file, and make the file correctly.
+- You can set a width and height in the ```text()``` function to limit those dimensions and make the text loop into the next line (kind of like a textbox!)
 
 ## Moving Forward
 Overall, I am already quite happy with the final result. However, if I had more time I would try to figure out why the balls are going through these invisible 'gaps' and re-write the grid class so that it has a color attribute. It would also be interesting to add some animations when the blocks break (ex. tiny colorful squares breaking off) like in the actual game. It looks like something that can be done using particle systems.
