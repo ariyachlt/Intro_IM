@@ -18,6 +18,11 @@ For this assignment, we were asked to create a puzzle that can be solved by pres
 3. Wrote if conditions with the 8 possible 'states'
 4. Filled in each condition with how I wanted my lights to blink. The blinking speed and combination of blinking lights depends on how close you are to the solution and hints to which switches need to be turned on or off.
 
+## Schematic
+<p align="center">
+  <img src="schematic.png" width="450">
+</p>
+
 ## Challenges
 My main challenge is in keeping the the breadboard and arduino organised rather than the actual programming. It can be quite easy to get confused which pin corresponds to which component and get caught in all the crossing wires therefore I found it quite helpful to write things down as soon as I plug something in. I actually spent the most time taking my breadboard apart and reorganizing it until I was happy with the placement of the switched and LEDs as well as how the wires crossed.
 
