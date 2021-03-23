@@ -1,7 +1,7 @@
 # Assignment 5: Momentary Switch Light Puzzle
 
 <p align="center">
-  <img src="image1.png" width="450">
+  <img src="image1.png" width="480">
 </p>
 
 ## Description
