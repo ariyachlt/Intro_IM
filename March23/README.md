@@ -29,7 +29,7 @@ My main challenge is in keeping the the breadboard and arduino organised rather 
 ## Discoveries
 I found that when working with multiple conditions, it is much easier to keep track of the combinations of switches in an if else statement where I put the value of each switch in the condition rather than write a nested for loop. I'm not sure of this explanation makes sense but I included an example below to show what I am trying to say.
 
-```Processing
+```
 \\ easier to keep track of combinations
 if (switch1Position == HIGH && switch2Position == LOW && switch3Position == LOW) {
   ...
