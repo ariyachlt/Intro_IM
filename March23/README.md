@@ -20,7 +20,7 @@ For this assignment, we were asked to create a puzzle that can be solved by pres
 
 ## Schematic
 <p align="center">
-  <img src="schematic.png" width="450">
+  <img src="schematic.png" width="520">
 </p>
 
 ## Challenges
