@@ -8,8 +8,11 @@
 
 ## Demo
 <p align="center">
-  <img src="demoAnalogDigital.gif" width="520">
+  <img src="changeSpeed.gif" width="480">
+  <img src="changePattern.gif" width="480">
 </p>
+
+The photoresistor controls the speed of the green lights turn on and off and the LED fade amount. The switch changes the pattern the green LED flashes.
 
 Click [here](https://youtu.be/mniN0i_mGFo) for a link to the video
 
