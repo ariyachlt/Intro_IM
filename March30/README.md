@@ -11,7 +11,7 @@
   <img src="demoAnalogDigital.gif" width="520">
 </p>
 
-Click [here](https://github.com/ariyachlt/Intro_IM) for a link to the video
+Click [here](https://youtu.be/mniN0i_mGFo) for a link to the video
 
 ## Process
 
