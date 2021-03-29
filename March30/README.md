@@ -17,7 +17,7 @@ Click [here](https://github.com/ariyachlt/Intro_IM) for a link to the video
 
 ## Schematic
 <p align="center">
-  <img src="schematicAnalogDigital.png" width="520">
+  <img src="schematicAnalogDigital.png" width="620">
 </p>
 
 ## Challenges
