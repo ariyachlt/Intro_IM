@@ -1,7 +1,7 @@
 # Assignment 6: Analog vs. Digital
 
 <p align="center">
-  <img src="image.png" width="480">
+  <img src="imageAnalogDigital.png" width="480">
 </p>
 
 ## Description
