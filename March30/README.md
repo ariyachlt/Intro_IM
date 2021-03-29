@@ -12,9 +12,7 @@
   <img src="changePattern.gif" width="480">
 </p>
 
-The photoresistor controls the speed of the green lights turn on and off and the LED fade amount (LEFT). The switch changes the pattern the green LED flashes (RIGHT).
-
-Click [here](https://youtu.be/mniN0i_mGFo) for a link to the video
+The photoresistor controls the speed of the green lights turn on and off and the LED fade amount (LEFT). The switch changes the pattern the green LED flashes (RIGHT). Click [here](https://youtu.be/mniN0i_mGFo) for a video demo.
 
 ## Process
 
