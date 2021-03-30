@@ -5,6 +5,9 @@
 </p>
 
 ## Description
+For this assignment, we were asked to get information from at least one analog sensor and at least one digital sensor (a switch), and use this information to control at least two LEDs, one in a digital fashion and the other in an analog fashion, in some creative way. For my interactive piece, I drew inspiration from the high-striker game, a strength-tester attraction used at fairs, to create LEDs that flash in sequential order (in a normal state) at the rate of a fading LED at the top (I think it's much easier to understand what is going on from the Demo than to put in words). I decided to use  
+
+
 
 ## Demo
 <p align="center">
