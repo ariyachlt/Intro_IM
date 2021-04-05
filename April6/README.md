@@ -21,7 +21,7 @@ Click [here]() for a video demo.
 3. Declared the variables to know which pin corresponds to each component.
 4. Set all the switches and the photoresistor as outputs (no need to set the buzzer as an output).
 5. Defined the default note frequencies corresponding to each switch.
-6. Read the photoresistor value using analogRead() and mapped it between 400 and 0 to increase the with less light. This becomes the ```toneChange``` variable which changes the original note according to the sensor value of the photoresistor.
+6. Read the photoresistor value using analogRead() and mapped it between 400 and 0 to increase the pitch with less light. This becomes the ```toneChange``` variable which changes the original note according to the sensor value of the photoresistor.
 7. Wrote ```if()``` statements to condition which note to play when each switch is pressed
 
 ## Schematic
