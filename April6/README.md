@@ -1,4 +1,4 @@
-# Assignment 7: Musical Instrument (The Arduinolin)
+# Assignment 7: Musical Instrument (The Sci-Fi Soundtrack Maker)
 
 <p align="center">
   <img src="imageAnalogDigital.png" width="480">
