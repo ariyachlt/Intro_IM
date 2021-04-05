@@ -1,4 +1,4 @@
-# Assignment 7: Musical Instrument -- The Arduinolin
+# Assignment 7: Musical Instrument (The Arduinolin)
 
 <p align="center">
   <img src="imageAnalogDigital.png" width="480">
