@@ -16,6 +16,13 @@ The production assignment for this week was to make a musical instrument using a
 Click [here]() for a video demo.
 
 ## Process
+1. Placed the switches, photoresistor, and buzzer on to the breadboard, taking into account how I want to wire and interact with them.
+2. Connected each component to an input and output pin accordingly.
+3. Declared the variables to know which pin corresponds to each component.
+4. Set all the switches and the photoresistor as outputs (no need to set the buzzer as an output).
+5. Defined the default note frequencies corresponding to each switch.
+6. Read the photoresistor value using analogRead() and mapped it between 400 and 0 to increase the with less light. This becomes the ```toneChange``` variable which changes the original note according to the sensor value of the photoresistor.
+7. Wrote ```if()``` statements to condition which note to play when each switch is pressed
 
 ## Schematic
 <p align="center">
@@ -23,5 +30,8 @@ Click [here]() for a video demo.
 </p>
 
 ## Challenges
+
+
+## Discoveries
 
 
