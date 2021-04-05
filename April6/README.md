@@ -30,8 +30,9 @@ Click [here]() for a video demo.
 </p>
 
 ## Challenges
-
+The main challenge I had was  finding a good range to map the input value from the photoresistor. The pitch tends to not change much unless I am very close to the photoresistor. Then the change is very rapid and difficult to control. I tried mapping it to a larger range so I hear the change easier.
 
 ## Discoveries
-
+1. You don't need a seperate pitches.h file defining the notes with the frequencies (ex. #define NOTE_E5  659). You can just declare the notes as integers as they are frequency readings (ex. int NOTE_E5 = 659).
+2. Arduino does not give index out of bounds error warnings so I ended up pulling my whole circuit apart thinking something was wrong with the breadboarding. Turns out I just forgot that Arduino starts at 0 and was indexing my array one number too high.
 
