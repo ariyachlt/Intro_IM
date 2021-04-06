@@ -25,7 +25,7 @@ Click [here](https://youtu.be/e19SDqF_XA4) for a video demo.
 
 ## Schematic
 <p align="center">
-  <img src="instrumentSchematic.png" width="620">
+  <img src="instrumentSchematic.jpg" width="620">
 </p>
 
 ## Challenges
