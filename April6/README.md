@@ -30,7 +30,7 @@ Click [here]() for a video demo.
 </p>
 
 ## Challenges
-The main challenge I had was  finding a good range to map the input value from the photoresistor. The pitch tends to not change much unless I am very close to the photoresistor. Then the change is very rapid and difficult to control. I tried mapping it to a larger range so I hear the change easier.
+The main challenge I had was  finding a good range to map the input value from the photoresistor. The pitch tends to not change much unless I am very close to the photoresistor. Then the change is very rapid and difficult to control. I tried mapping it to a larger range so I hear the change easier but the result is still highly variable depending on which time of the day you use the device.
 
 ## Discoveries
 1. You don't need a seperate pitches.h file defining the notes with the frequencies (ex. ```#define NOTE_E5  659```). You can just declare the notes as integers as they are frequency readings (ex. ```int NOTE_E5 = 659```).
