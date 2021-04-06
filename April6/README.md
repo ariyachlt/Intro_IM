@@ -9,7 +9,7 @@ The production assignment for this week was to make a musical instrument using a
 
 ## Demo
 <p align="center">
-  <img src="instrumentDemo.gif" width="480">
+  <img src="instrumentDemo.gif" width="540">
 </p>
 
 Click [here](https://youtu.be/e19SDqF_XA4) for a video demo.
