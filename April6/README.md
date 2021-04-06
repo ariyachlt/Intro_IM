@@ -1,7 +1,7 @@
 # Assignment 7: Musical Instrument (The Sci-Fi Soundtrack Maker)
 
 <p align="center">
-  <img src="imageAnalogDigital.png" width="480">
+  <img src="instrumentImage.png" width="480">
 </p>
 
 ## Description
@@ -10,10 +10,9 @@ The production assignment for this week was to make a musical instrument using a
 ## Demo
 <p align="center">
   <img src="changeSpeed.gif" width="480">
-  <img src="changePattern.gif" width="480">
 </p>
 
-Click [here]() for a video demo.
+Click [here](https://youtu.be/e19SDqF_XA4) for a video demo.
 
 ## Process
 1. Placed the switches, photoresistor, and buzzer on to the breadboard, taking into account how I want to wire and interact with them.
@@ -26,7 +25,7 @@ Click [here]() for a video demo.
 
 ## Schematic
 <p align="center">
-  <img src="schematicAnalogDigital.png" width="620">
+  <img src="instrumentSchematic.png" width="620">
 </p>
 
 ## Challenges
