@@ -7,7 +7,7 @@ For my final project, I want to create a two-player game involving some form of 
 The setup and goal of the game will be simple: try to get to the finish line before the other player. The cars will be side-by-side, with the finish line at the top of the screen (sketch below). I still haven't fully decided how I want to declare a winning condition but I am considering either doing a "best out of X rounds" or "first to reach X wins". This ensures that the game won't go on forever.
 
 <p align="center">
-  <img src="images/prelinCarSketch.jpg" height="330">
+  <img src="images/prelinCarSketch.jpeg" height="380">
 </p>
 
 **Interactions**
