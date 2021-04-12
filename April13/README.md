@@ -7,6 +7,13 @@
 
 ## Description
 
+## Rules
+1. Calibrate the photoresistor when the game starts (credits to Chinonyerem) by placing your fingers on and off the photoresistor. The user has up to 5 seconds to do so. If calibration failed, a defualt mapping range is set.
+<p align="center">
+  <img src="demoImages/Image1.jpg" width="560">
+</p>
+
+
 ## Demo
 <p align="center">
   <img src="gameDemo.gif" width="560">
