@@ -52,5 +52,6 @@ Click [here](https://youtu.be/-rTePLhQ21w) for a video demo.
 </p>
 
 ## Challenges
+My initial idea involved using a photoresistor to control the vertical movement of the circle and the ultrasonic sensor to control the horizontal movement. However, my ultrasonic sensor was giving very weird values (even when using a solid object instead of my hand to change the distance and following a [tutorial](https://howtomechatronics.com/uncategorized/ultrasonic-sensor-hc-sr04/)). The sensor randomly jumps to a very high value which I read that can happen when there are many objects around. However, facing the ultrasonic sensor towards a blank wall and using a hardcover book to test the distance didn't solve the issue. The input value from this sensor was too noisy and unstable for my liking so I switched it out for two switches and added noise using ```random(-4,4)``` to make it more consistent (noise-wise) with the photoresistor-controlled vertical movement.
 
 ## Discoveries
