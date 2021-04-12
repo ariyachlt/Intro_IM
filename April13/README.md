@@ -34,7 +34,7 @@
 
 ## Demo
 <p align="center">
-  <img src="demoImages/april13Demo.gif" width="560">
+  <img src="demoImages/april13Demo.gif" width="600">
 </p>
 
 Click [here]() for a video demo.
