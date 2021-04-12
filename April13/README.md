@@ -41,7 +41,8 @@ This week's production assignment was to make a simple game that involves some k
 Click [here](https://youtu.be/-rTePLhQ21w) for a video demo.
 
 ## Process
-1. 
+1. I first built the circuit (schematic below), placing the switches and photoresistor on to the breadboard while taking into account how I want to wire and interact with them.
+2. 
 
 ## Schematic
 <p align="center">
