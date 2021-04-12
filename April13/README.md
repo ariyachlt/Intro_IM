@@ -19,7 +19,7 @@ Click [here]() for a video demo.
 
 ## Schematic
 <p align="center">
-  <img src="gameSchematic.jpg" width="620">
+  <img src="gameSchematic.jpg" width="500">
 </p>
 
 ## Challenges
