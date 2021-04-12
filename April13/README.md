@@ -6,7 +6,7 @@
 </p>
 
 ## Description
-This week's production assignment was to make a simple game that involves some kind of communication between Arduino and Processing. I
+This week's production assignment was to make a simple game that involves some kind of communication between Arduino and Processing. I wanted to build something that takes inputs from arduino to control what happens on the processing display window. I decided to create a simple game that takes inputs from switches and a photoresistor to control the position of a circle on the processing screen. The goal of the the game is also simple: using the photoresistor and switches, move the red circle into the white circle as many times as possible in one minute.
 
 ## Instructions
 1. Calibrate the photoresistor when the game starts (credits to Chinonyerem) by placing your fingers on and off the photoresistor. The user has up to 5 seconds to do so. If calibration failed, a defualt mapping range is set.
