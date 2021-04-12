@@ -42,7 +42,9 @@ Click [here](https://youtu.be/-rTePLhQ21w) for a video demo.
 
 ## Process
 1. I first built the circuit (schematic below), placing the switches and photoresistor on to the breadboard while taking into account how I want to wire and interact with them.
-2. 
+2. I then wrote the Arduino code. Since I am only taking inputs from Arduino, it wasn't difficult to write code to obtain the values I need that I want to send to processing.
+3. Next, I began writing the processing code by first making sure my inputs from Arduino are moving one circle around the screen the way I am expecting it to.
+4. Once I am sure everything is functioning the way it should, I wrote the functions and conditions for the game to operate (ex. detecting circle overlap, scoring, counting down the time, displaying text, restarting the game etc.)
 
 ## Schematic
 <p align="center">
