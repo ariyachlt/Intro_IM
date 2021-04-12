@@ -26,9 +26,6 @@
 </p>
 
 5. Using the photoresistor and switches, move the red circle into the white circle. Once succeeded, new red and white circles will be generated in a new position. Try to move as many red circles into white circles as possible in 1 minute.
-<p align="center">
-  <img src="demoImages/Image4.png" height="270">
-</p>
 
 6. At the end of the game, the score is displayed. Press both switches to restart the game.
 <p align="center">
