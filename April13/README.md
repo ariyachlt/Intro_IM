@@ -37,7 +37,7 @@
   <img src="demoImages/april13Demo.gif" width="600">
 </p>
 
-Click [here]() for a video demo.
+Click [here](https://youtu.be/-rTePLhQ21w) for a video demo.
 
 ## Process
 1. 
