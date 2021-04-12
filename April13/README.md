@@ -34,7 +34,7 @@
 
 ## Demo
 <p align="center">
-  <img src="gameDemo.gif" width="560">
+  <img src="april13Demo.gif" width="560">
 </p>
 
 Click [here]() for a video demo.
