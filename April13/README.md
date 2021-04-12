@@ -1,8 +1,8 @@
 # Assignment 8: Simple Arduino-Processing Game
 
 <p align="center">
-  <img src="gameScreenImage.png" width="480">
-  <img src="gameBoardImage.png" width="480">
+  <img src="gameScreenImage.png" height="300">
+  <img src="gameBoardImage.jpg" height="300">
 </p>
 
 ## Description
