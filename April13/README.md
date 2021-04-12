@@ -6,6 +6,7 @@
 </p>
 
 ## Description
+This week's production assignment was to make a simple game that involves some kind of communication between Arduino and Processing. I
 
 ## Instructions
 1. Calibrate the photoresistor when the game starts (credits to Chinonyerem) by placing your fingers on and off the photoresistor. The user has up to 5 seconds to do so. If calibration failed, a defualt mapping range is set.
