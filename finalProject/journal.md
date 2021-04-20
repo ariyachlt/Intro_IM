@@ -29,7 +29,7 @@ I first idea, I though about checking if the current switch pressed is the same 
 
 **Monday April 19, 2021** \
 Today, I actually wrote the code in Arduino so that I can check if it actually works. Below is a snippet of the code for one of the player's switches.
-```{Java}
+```Processing
 // Player 1 movement checking
    player1LeftState = digitalRead(player1LeftPIN);
    player1RightState = digitalRead(player1RightPIN);
