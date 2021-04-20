@@ -30,6 +30,10 @@ I first idea, I though about checking if the current switch pressed is the same 
 **Monday April 19, 2021** \
 Today, I actually wrote the code in Arduino so that I can check if it actually works. Below is a snippet of the code for one of the player's switches.
 ```Processing
+int player1LeftState, player1RightState; // Variables to store value from the switches for each player
+int player1PrevSwitch = floor(random(0,2)); // Variables to store the previous states of the switch (0 = left, 1 = right)
+int player1Move = 0; // Variables to tell processing whether the player should be moving (o = no, 1 = yes)
+
 // Player 1 movement checking
    player1LeftState = digitalRead(player1LeftPIN);
    player1RightState = digitalRead(player1RightPIN);
