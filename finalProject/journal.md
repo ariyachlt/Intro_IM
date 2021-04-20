@@ -59,3 +59,5 @@ However, before I can check that this even works, I need to first set up the cir
 <p align="center">
   <img src="images/breadBoardExample.png" height="330">
 </p>
+
+Next, I began writing the communication between Arduino and Processing.
