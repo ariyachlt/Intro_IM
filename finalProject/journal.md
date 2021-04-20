@@ -54,3 +54,4 @@ int player1Move = 0; // Variables to tell processing whether the player should b
      }
    }
 ```
+However, before I can check that this even works, I need to first set up the circuit on my breadboard and 
