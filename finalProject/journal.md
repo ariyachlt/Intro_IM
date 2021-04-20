@@ -38,15 +38,15 @@ int player1Move = 0; // Variables to tell processing whether the player should b
    player1LeftState = digitalRead(player1LeftPIN);
    player1RightState = digitalRead(player1RightPIN);
 
-   if (player1PrevSwitch == 0) {
-     if (player1LeftState == LOW & player1RightState == HIGH){
+   if (player1PrevSwitch == 0) {  // check if left switch was previously pressed
+     if (player1LeftState == LOW & player1RightState == HIGH){  // check if right switch is pressed while left switch is not, move if true
        player1Move = 1;
        player1PrevSwitch = 1;
      } else {
        player1Move = 0;
      }
-   } else if (player1PrevSwitch == 1) {
-     if (player1LeftState == HIGH & player1RightState == LOW){
+   } else if (player1PrevSwitch == 1) {  // check is right switch was previously pressed
+     if (player1LeftState == HIGH & player1RightState == LOW){  // check if left switch is pressed while right switch is not, move if true
        player1Move = 1;
        player1PrevSwitch = 0;
      } else {
