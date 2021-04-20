@@ -17,5 +17,12 @@ The movement of the two cars will be controlled by buttons (switches). Each car 
   <img src="images/breadboardSketch.jpeg" height="330">
 </p>
 
+## Progress
+**Friday April 16 - Sunday April 18, 2021** \
+These past few days, I actually took to pen an paper to plan my code. My main priority is to figure out the car movement conditions based on alternately pressing buttons because it is the main component of my game. I knew I had to store information on previous buttons pressed and use that information to condition the movement, however, it wasn't clear in my mind how I would actually implement it in code. Something that I find really useful when I don't have clarity on how to acually code is to just write out the steps of whats needs to happen. Attached below is an image on a snippet from my notebook scribbles.
 
+<p align="center">
+  <img src="images/movementPlan.jpg" height="450">
+</p>
 
+I first idea, I though about checking if the current switch pressed is the same as the prevous switch pressed but the amount of things that needed to be checked and reassigning new values to variables got me quite confused. I also thought about detecting releases instead of presses to ensure the cars doesn't keep moving if the player keep the switch pressed down. I then realised that if I reassign the value of the last switch pressed (as I tried to do in my first plan) it shouldn't matter if the switch is held down. However, I figured there must be an easier and more code-efficient way to check that the switches are alternating. I realised that if I check which switch was last pressed, I should be able to check the current switch pressed right away by checking if the current switch pressed is ```HIGH``` while the previous one is ```LOW```. This automatically ensures that the car only moves if one of the two switches is pressed and if they current switch pressed is not the same as the previous switch pressed. I haven't tried to implement it yet so my next step is to make sure that this idea actually works.
