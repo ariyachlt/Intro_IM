@@ -77,9 +77,14 @@ Today, I decided to change my plan a little bit. Instead of pressing the buttons
 I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first. Acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
-I implemented the idea I had from yesterday. 
-- added max acceleration such that if any players reaches that max acceleration, car moves back goes back and start from the bottom
-- added function to also fall back down when the players lets go of the switch just to add another level of complexity
+I implemented the idea I had from yesterday. I added a maximum velocty so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combinatin of these different ideas although nothing in particular is really speaking to me.
+
+<p align="center">
+  <img src="images/accFallAbit.png" height="330">
+  <img src="images/accFallToBot.png" height="330">
+  <img src="images/accFall.png" height="330">
+</p>
+
 
 **Sunday April 25, 2021**
 - change of idea, new game
