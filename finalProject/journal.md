@@ -67,6 +67,7 @@ Next, I began writing the communication between Arduino and Processing. I send t
 - no longer alternating buttons to move the car
 - press to accelerate instead
 - tried with one car --> works!
+- removed the other switch because not much use for it
 - attached GIF
 
 **Thursday April 22, 2021** \
