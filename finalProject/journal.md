@@ -86,20 +86,20 @@ I implemented the idea I had from yesterday. I added a maximum velocty so that i
 </p>
 
 
-**Sunday April 25, 2021**
+**Sunday April 25, 2021** \
 At this point I decided that I don't like my idea from yesterday and that the two-player car racing game just isn't going to work out. However I figured I can adapt some of the functionality that I've coded into some other game. Since the 'car', which I've now changed into a ball, rises up when the switch is pressed and falls down when the switch is released, I thought I could use that to create some game where the players have to keep their ball in specific positions on the screen. The player better at controlling the ball obviously wins the game. I didn't have a fully fleshed out idea but it felt like something that I will definitely be able to work with.
 
-**Monday April 26, 2021**
+**Monday April 26, 2021** \
 - decided it needed a concept --> adapted from a dart board and the game
 - created the board background aesthetic
 
-**Tuesday April 27, 2021**
+**Tuesday April 27, 2021** \
 - added game functions
   - point system by dividing the blocks up and assigning them different points
   - deciding how to increment points --> every 1 second point added to score depends on position on the board at that exact time, changed idea to every half second because one second is too long
   - set limit of gaining points to 1 minute --> 1 minute also too long to be consistently pressing switches (too tiring), changed to 20 seconds
 
-**Wednesday April 28, 2021**
+**Wednesday April 28, 2021** \
 - worked on displaying winner, adding homescreen and instructions page
 - limited time so adapted from midterm project
 - added sounds
