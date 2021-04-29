@@ -74,8 +74,7 @@ Today, I decided to change my plan a little bit. Instead of pressing the buttons
 </p>
 
 **Thursday April 22, 2021** \
-I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first.
-- acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
+I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first. Acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
 I implemented the idea I had from yesterday. 
