@@ -73,3 +73,22 @@ Next, I began writing the communication between Arduino and Processing. I send t
 - acceleration makes it too easy because then it just depends on who pressed the button first
 - add max acceleration that if reached car "crashes" for a few seconds or move back X amount of pixels?
 
+**Saturday April 24, 2021** \
+- added max acceleration such that if any players reaches that max acceleration, car moves back goes back and start from the bottom
+- added function to also fall back down when the players lets go of the switch just to add another level of complexity
+
+**Sunday April 25, 2021**
+- change of idea, new game
+- still two player
+- something that uses the function of acceleration that I already coded for
+- after thinking, some game that has to do with keeping the balls within some bound in the middle of the screen / earn the most points depending one position of the screen
+
+**Monday April 26, 2021**
+- decided it needed a concept --> adapted from a dart board and the game
+- created the board background aesthetic
+
+**Tuesday April 27, 2021**
+- added game functions
+
+
+
