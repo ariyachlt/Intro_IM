@@ -87,10 +87,7 @@ I implemented the idea I had from yesterday. I added a maximum velocty so that i
 
 
 **Sunday April 25, 2021**
-- change of idea, new game
-- still two player
-- something that uses the function of acceleration that I already coded for
-- after thinking, some game that has to do with keeping the balls within some bound in the middle of the screen / earn the most points depending one position of the screen
+At this point I decided that I don't like my idea from yesterday and that the two-player car racing game just isn't going to work out. However I figured I can adapt some of the functionality that I've coded into some other game. Since the 'car', which I've now changed into a ball, rises up when the switch is pressed and falls down when the switch is released, I thought I could use that to create some game where the players have to keep their ball in specific positions on the screen. The player better at controlling the ball obviously wins the game. I didn't have a fully fleshed out idea but it felt like something that I will definitely be able to work with.
 
 **Monday April 26, 2021**
 - decided it needed a concept --> adapted from a dart board and the game
