@@ -89,6 +89,15 @@ Next, I began writing the communication between Arduino and Processing. I send t
 
 **Tuesday April 27, 2021**
 - added game functions
+  - point system by dividing the blocks up and assigning them different points
+  - deciding how to increment points --> every 1 second point added to score depends on position on the board at that exact time, changed idea to every half second because one second is too long
+  - set limit of gaining points to 1 minute --> 1 minute also too long to be consistently pressing switches (too tiring), changed to 20 seconds
+
+**Wednesday April 28, 2021**
+- worked on displaying winner, adding homescreen and instructions page
+- limited time so adapted from midterm project
+- added sounds
+
 
 
 
