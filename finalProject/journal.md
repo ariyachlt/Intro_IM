@@ -75,10 +75,10 @@ Today, I decided to change my plan a little bit. Instead of pressing the buttons
 
 **Thursday April 22, 2021** \
 I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first.
-- acceleration makes it too easy because then it just depends on who pressed the button first
-- add max acceleration that if reached car "crashes" for a few seconds or move back X amount of pixels?
+- acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
+I implemented the idea I had from yesterday. 
 - added max acceleration such that if any players reaches that max acceleration, car moves back goes back and start from the bottom
 - added function to also fall back down when the players lets go of the switch just to add another level of complexity
 
