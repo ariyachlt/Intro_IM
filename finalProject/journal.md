@@ -102,9 +102,10 @@ It took a little bit of planning before actually creating the board background o
   <img src="images/dartBoardDone.png" height="330">
 </p>
 
-Making this bboard design reminded me of the first assignment we had where we had to make a portrait of ourselfs using shapes. I had to figure out the positions of each rectangle. I also used loops to create the alternating black and beige, and green and red layers of the board. Overall, I actually really like the color scheme.
+Making this bboard design reminded me of the first assignment we had where we had to make a portrait of ourselfs using shapes. I had to figure out the positions of each rectangle. I also used loops to create the alternating black and beige, and green and red layers of the board. Overall, I actually really ended up liking the design and color scheme. At this point I also realised that I don't have much time left and I need to work faster.
 
 **Tuesday April 27, 2021** \
+Today, I added the rest of the game function. I decided on a point system based on how my board was divided up. THe center most red pieces which represents the bullseye will be 25 points. The green later outside of that will be 
 - added game functions
   - point system by dividing the blocks up and assigning them different points
   - deciding how to increment points --> every 1 second point added to score depends on position on the board at that exact time, changed idea to every half second because one second is too long
