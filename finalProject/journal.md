@@ -77,7 +77,7 @@ Today, I decided to change my plan a little bit. Instead of pressing the buttons
 I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first. Acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
-I implemented the idea I had from yesterday. I added a maximum velocty so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combinatin of these different ideas although nothing in particular is really speaking to me.
+I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combinatin of these different ideas although nothing in particular is really speaking to me.
 
 <p align="center">
   <img src="images/accFallAbit.png" height="330">
@@ -95,7 +95,12 @@ Somehow the idea of adapting a dart board to this game came to my mind. Since I 
   <img src="images/dartBoardSketch.png" height="330">
 </p>
 
-It took a little bit of planning before actually creating the board background on processing since I had to do a bit of math to figure out the placement of all my rectangles. 
+It took a little bit of planning before actually creating the board background on processing since I had to do a bit of math to figure out the placement of all the rectangles. Usually I make sure the bulk of the game functioning is done before I play around with aesthetics. But this time I started by creating the board aesthetics first because the scoring depends on the balls position on the board, which relates to how different parts of my background is arranged. Therefore, in this case, it made sense for me to make sure the background looks right before dealing with the code for how the players earn points and win.
+
+<p align="center">
+  <img src="images/dartBoardProgress.png" height="330">
+  <img src="images/dartBoardDone.png" height="330">
+</p>
 
 **Tuesday April 27, 2021** \
 - added game functions
