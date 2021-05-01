@@ -111,16 +111,25 @@ Today, I added the rest of the game functions. I decided on a point system based
   <img src="images/dartBoardScoring.png" height="330">
 </p>
 
-After this I had to decide how each player scores a point. Since the players can't actually 'throw' the darts, I adapted the game by increment points event held a second depending on the position of the 'dart' or ball at that very moment. This was done by using the modulus of frameCount to compute the score every half a second. 
+After this I had to decide how each player scores a point. Since the players can't actually 'throw' the darts, I adapted the game by increment points event held a second depending on the position of the 'dart' or ball at that very moment. This was done by using the modulus of frameCount to compute the score every half a second. I experimented with 2 and 1 second increments beforehand, but they both felt too far apart and just didn't feel right.
 
 ```Processing
 // add score every half a second (note: I set the frameRate to 120)
 if (frameCount % 60 == 0) {
-  scoringSystem();  // adds score base on position of each players 'dart' on the screen
+  scoringSystem();  // adds score based on the position of each players 'dart' on the screen
 }
 ```
 
-I experimented with 2 and 1 second increments but they both felt too far apart and just didn't feel right. I also set the limit of the game time to be 20 seconds because any longer than that is just too tiring since the movement is quite difficult to control (on purpose) and requires pressing and releasing the switch frequently. 
+I also set the limit of the game time to be 20 seconds because any longer than that is just too tiring since the movement is quite difficult to control (on purpose) and requires pressing and releasing the switch frequently. I also kept track of the game time using the modulus of frameCount, similar to how I did the scoring
+
+```Processing
+if (frameCount % 120 == 0 && gameTime < 20) { // keep track of gameTime every 1 second as long as it hasn't reached 20 seconds
+  gameTime++;
+} else if (gameTime == 20) { // once time is up, the game ends
+  winSound.play();
+  screen = 3; // display winner
+}
+```
 
 **Wednesday April 28, 2021** \
 - worked on displaying winner, adding homescreen and instructions page
