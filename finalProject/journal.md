@@ -132,11 +132,7 @@ if (frameCount % 120 == 0 && gameTime < 20) { // keep track of gameTime every 1 
 ```
 
 **Wednesday April 28, 2021** \
-Now that the game is functioning the way that it should, I worked on the homescreen, intructions page and winning condition 'page' (more like a box that gets displayed). Since I spent a lot of time trying to get my initialy car-racing game idea to work, I didn't have much time left to work on the aesthetics of the game. I decided to adapt the style I used for my midterm to my final project. In a way, I really liked the idea of doing this because, in a way, it makes me feel like I've made this style my thing (gives it a very Ariya vibe). I also added sounds for when the buttons are clicked, game is playing, and winner is announced. All my sounds were obtained from [zapsplat](https://www.zapsplat.com/).
-
-- worked on displaying winner, adding homescreen and instructions page
-- limited time so adapted from midterm project
-- added sounds
+Now that the game is functioning the way that it should, I worked on the homescreen, intructions page and winning condition 'page' (more like a box that gets displayed). Since I spent a lot of time trying to get my initialy car-racing game idea to work, I didn't have much time left to work on the aesthetics of the game. I decided to adapt the style I used for my midterm to my final project. In a way, I really liked the idea of doing this because, in a way, it makes me feel like I've made this style my thing (gives it a very Ariya vibe). I also added sounds for when the buttons are clicked, game is playing, and winner is announced. All my sounds were obtained from [zapsplat](https://www.zapsplat.com/). I wish I didn't spend too long trying to get my initial idea to work so that I could perhaps make this game a little more interesting. However, I did as best as I could with the limited time I had left. I ended up really liking the concept of my game but with more time I could have liked to be able to make it more interactive that just one button per person.
 
 
 
