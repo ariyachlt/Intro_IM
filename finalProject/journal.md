@@ -102,14 +102,25 @@ It took a little bit of planning before actually creating the board background o
   <img src="images/dartBoardDone.png" height="330">
 </p>
 
-Making this bboard design reminded me of the first assignment we had where we had to make a portrait of ourselfs using shapes. I had to figure out the positions of each rectangle. I also used loops to create the alternating black and beige, and green and red layers of the board. Overall, I actually really ended up liking the design and color scheme. At this point I also realised that I don't have much time left and I need to work faster.
+Making this board design reminded me of the first assignment we had where we had to make a portrait of ourselfs using shapes. I had to figure out the positions of each rectangle. I also used loops to create the alternating black and beige, and green and red layers of the board. Overall, I actually really ended up liking the design and color scheme. At this point I also realised that I don't have much time left and I need to work faster.
 
 **Tuesday April 27, 2021** \
-Today, I added the rest of the game function. I decided on a point system based on how my board was divided up. THe center most red pieces which represents the bullseye will be 25 points. The green later outside of that will be 
-- added game functions
-  - point system by dividing the blocks up and assigning them different points
-  - deciding how to increment points --> every 1 second point added to score depends on position on the board at that exact time, changed idea to every half second because one second is too long
-  - set limit of gaining points to 1 minute --> 1 minute also too long to be consistently pressing switches (too tiring), changed to 20 seconds
+Today, I added the rest of the game functions. I decided on a point system based on how my board was divided up. The center most red pieces which represents the bullseye will be 25 points. The green layer outside of that will be worth 10 points. The white and beige, and green and red layer following that will be worth 3, 5, 2 and 1 point(s), as shown in the image below.
+
+<p align="center">
+  <img src="images/dartBoardScoring.png" height="330">
+</p>
+
+After this I had to decide how each player scores a point. Since the players can't actually 'throw' the darts, I adapted the game by increment points event held a second depending on the position of the 'dart' or ball at that very moment. This was done by using the modulus of frameCount to compute the score every half a second. 
+
+```Processing
+// add score every half a second (note: I set the frameRate to 120)
+if (frameCount % 60 == 0) {
+  scoringSystem();  // adds score base on position of each players 'dart' on the screen
+}
+```
+
+I experimented with 2 and 1 second increments but they both felt too far apart and just didn't feel right. I also set the limit of the game time to be 20 seconds because any longer than that is just too tiring since the movement is quite difficult to control (on purpose) and requires pressing and releasing the switch frequently. 
 
 **Wednesday April 28, 2021** \
 - worked on displaying winner, adding homescreen and instructions page
