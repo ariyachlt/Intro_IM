@@ -73,9 +73,10 @@ Today, I decided to change my plan a little bit. Instead of pressing the buttons
 I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first. Acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
-I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combination of these different ideas although nothing in particular is really speaking to me.
+I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car stops for a few seconds (left). In another version, the car restarts from a position slightly lower (second to left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (second to right). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combination of these different ideas although nothing in particular is really speaking to me.
 
 <p align="center">
+  <img src="images/accFreeze.png" height="330">
   <img src="images/accFallAbit.png" height="330">
   <img src="images/accFallToBot.png" height="330">
   <img src="images/accFall.png" height="330">
