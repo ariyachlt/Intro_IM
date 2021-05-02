@@ -18,7 +18,7 @@ For my final project, I decided to create an adaptation of darts for two players
 I assume that most already know what 'darts' or 'dart-throwing' is. But for those who don't or may not understand how it work, darts is a competitive sport where two or more players throw darts at a target (dartboard) and win by scoring exactly 0 points from the initial 501. Depending on where on the board the player hits, that amount of point gets subtracted from the player's current score. Bullseye scores 50, the outer ring scores 25 and a dart in the double or treble ring counts double or treble the segment score (image below). There are a few other versions of the game that I won't go into. The main take-away from this will be that players score a certion amount of points depending on where on the dartboard they hit.
 
 <p align="center">
-  <img src="images/dartBoartExample.png" height="350">
+  <img src="images/dartBoardExample.png" height="350">
 </p>
 
 **What does my version of it look like?** \
