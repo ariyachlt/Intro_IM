@@ -82,7 +82,7 @@ I implemented the idea I had from yesterday. I added a maximum velocity so that 
 </p>
 
 **Sunday April 25, 2021** \
-At this point I decided that I don't like my idea from yesterday and that the two-player car racing game just isn't going to work out. However I figured I can adapt some of the functionality that I've coded into some other game. Since the 'car', which I've now changed into a ball, rises up when the switch is pressed and falls down when the switch is released, I thought I could use that to create some game where the players have to keep their ball in specific positions on the screen. I increased the frameRate to make things feel like its moving faster, making the movement of the ball harder to control. The player better at controlling the ball obviously wins the game. I didn't have a fully fleshed out idea but it felt like something that I will definitely be able to work with.
+At this point I decided that I don't like my idea from yesterday and that the two-player car racing game just isn't going to work out. However I figured I can adapt some of the functionality that I've coded into some other game. Since the 'car', which I've now changed into a ball, rises up when the switch is pressed and falls down when the switch is released, I thought I could use that to create some game where the players have to keep their ball in specific positions on the screen. The player better at controlling the ball obviously wins the game. I didn't have a fully fleshed out idea but it felt like something that I will definitely be able to work with.
 
 <p align="center">
   <img src="images/finalBallMovement.gif" height="350">
