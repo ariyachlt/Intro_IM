@@ -43,10 +43,10 @@ In my journal, I use the word 'deconstructed' to describe my project quite often
 
 ## Demo
 <p align="center">
-  <img src="images/gameDemo.gif" width="420">
+  <img src="images/demoImage.png" width="420">
 </p>
 
-Click [here]() to watch it with sound.
+Click [here]() to for a video demo.
 
 ## Schematic and Breadboarding
 Below is a schematic of my circuit (left) and an image of how I breadboarded it (right). Since two players will be using switches on the same breadboard to control their 'dart', their placement is important. I made sure the switches were far apart from each other and that the wires were not in the way so that it can be comfortable for the players to control the switches.
