@@ -35,7 +35,12 @@ My version of the game is a little more simplified, with some odd adaptations he
 In my journal, I use the word 'deconstructed' to describe my project quite often because I view it as more than an adaptation. Rather than just changing components of the game here and there, I pull pieces of the game apart (including the actual hysical appearance of the board), and reconstruct it to make it fit what funtionality I already had before changing my idea from a two-player racing game to a two-player dart game.
 
 ## Instructions
-
+1. Each player controls one switch on the arduino
+2. Hold the switch to accelerate up
+3. Let go of the switch to fall down
+4. Try to score as many points as possible in 20 seconds
+5. Your position on the board every half a second determines the number of points you will get
+6. From the center layer outwards, 25, 10, 3, 5, 2, and 1 point(s) will be added to your score
 
 ## Demo
 <p align="center">
@@ -43,8 +48,6 @@ In my journal, I use the word 'deconstructed' to describe my project quite often
 </p>
 
 Click [here]() to watch it with sound.
-
-## Process
 
 ## Schematic and Breadboarding
 Below is a schematic of my circuit (left) and an image of how I breadboarded it (right). Since two players will be using switches on the same breadboard to control their 'dart', their placement is important. I made sure the switches were far apart from each other and that the wires were not in the way so that it can be comfortable for the players to control the switches.
