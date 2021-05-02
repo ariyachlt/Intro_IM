@@ -1,5 +1,3 @@
-The preliminary concept and description is in [journal.md](https://github.com/ariyachlt/Intro_IM/blob/main/finalProject/journal.md)
-
 # Final Project (Adaptation of Darts)
 
 <p align="center">
@@ -24,7 +22,7 @@ I assume that most already know what 'darts' or 'dart-throwing' is. But for thos
 </p>
 
 **What does my version of it look like?** \
-My version of the game is a little more simplified, with most of the key elements intact. My experience playing this game allowed me to make an informed decision of what to keep and what to modify so that the game retains the key components and remains playable.  \
+My version of the game is a little more simplified, with some odd adaptations here and there that I actually ended up quite liking the idea of because I was trying to reuse the functionality/interaction of my previous final project idea to create a different project. Below is list of how I adapted or 'deconstructed' the game. \
 \
 Things that stayed the same:
 - The number of balls inside the block is the number of hits required to break it
@@ -41,7 +39,7 @@ Things I modified:
 - Defined the number of balls as the current round instead
 - Balls only shoot from the center of the ground instead of where the first ball in each round falls
 
-Most modifications are due to extra challenges in defining conditions or calculations. They add too many layers of complexity on top of a program that is already quite time consuming to recreate.
+I use the word 'deconstructed' to describe my project quite often because I view it as more than an adaptation. Rather than just changing components of the game here and there, I pull pieces of the game apart (including the actual hysical appearance of the board), and reconstruct it to make it fit what funtionality I already had before changing my idea from a two-player racing game to a two-player dart game.
 
 ## Instructions
 1. Move the mouse to aim
