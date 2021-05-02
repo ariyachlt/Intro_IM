@@ -24,13 +24,15 @@ I assume that most already know what 'darts' or 'dart-throwing' is. But for thos
 **What does my version of it look like?** \
 My version of the game is a little more simplified, with some odd adaptations here and there that I actually ended up quite liking the idea of because I was trying to reuse the functionality/interaction of my previous final project idea to create a different project. Below is list of how I adapted or 'deconstructed' the game. \
 \
-Things that stayed the same:
 
+- Instead of a round board, I recreated a flat 'linear' board using the same idea that the center region is where the player can score the highest amount of points.
+- The players try to score the most points within a certain time frame instead of trying to reach a score of zero from and intial 501. Every half a second, the program increments the players current score by the score corresponding to the position of the player's 'dart' on the board.
+- The point system is slightly different and depends on how easy it is to be in each region. The harder it is to keep the 'dart' in on region, the more points that region is worth.
+- To mimic how hard it can be to aim at the board, I made sure that the 'dart' is slightly difficult to control by adding acceleration.
+- The darts don't necessarily get 'thrown'. Instead, the players control their 'dart' by pressing the switchings to accelerate it up or letting go to let it fall down.
+- The players don't take turns to 'throw' their darts, they play the game at the same time.
 
-Things I modified:
-
-
-I use the word 'deconstructed' to describe my project quite often because I view it as more than an adaptation. Rather than just changing components of the game here and there, I pull pieces of the game apart (including the actual hysical appearance of the board), and reconstruct it to make it fit what funtionality I already had before changing my idea from a two-player racing game to a two-player dart game.
+In my journal, I use the word 'deconstructed' to describe my project quite often because I view it as more than an adaptation. Rather than just changing components of the game here and there, I pull pieces of the game apart (including the actual hysical appearance of the board), and reconstruct it to make it fit what funtionality I already had before changing my idea from a two-player racing game to a two-player dart game.
 
 ## Instructions
 
