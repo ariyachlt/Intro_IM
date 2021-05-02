@@ -95,10 +95,9 @@ Somehow the idea of adapting a dart board to this game came to my mind. Since I 
   <img src="images/dartBoardSketch.png" height="330">
 </p>
 
-It took a little bit of planning before actually creating the board background on processing since I had to do a bit of math to figure out the placement of all the rectangles. Usually I make sure the bulk of the game functioning is done before I play around with aesthetics. But this time I started by creating the board aesthetics first because the scoring depends on the balls position on the board, which relates to how different parts of my background is arranged. Therefore, in this case, it made sense for me to make sure the background looks right before dealing with the code for how the players earn points and win. Below is the progress and final background design. 
+It took a little bit of planning before actually creating the board background on processing since I had to do a bit of math to figure out the placement of all the rectangles. Usually I make sure the bulk of the game functioning is done before I play around with aesthetics. But this time I started by creating the board aesthetics first because the scoring depends on the balls position on the board, which relates to how different parts of my background is arranged. Therefore, in this case, it made sense for me to make sure the background looks right before dealing with the code for how the players earn points and win. Below is the final background design. 
 
 <p align="center">
-  <img src="images/dartBoardProgress.png" height="330">
   <img src="images/dartBoardDone.png" height="330">
 </p>
 
