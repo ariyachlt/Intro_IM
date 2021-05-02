@@ -58,12 +58,12 @@ Below is a schematic of my circuit (left) and an image of how I breadboarded it 
 </p>
 
 ## Challenges
-The main challenge that I faced was in making the movement work for my initial final project idea which was to create a two-player car racing game. I wrote about the challenge in a lot of detail in my 
+The main challenge that I faced was in making the movement work for my initial final project idea which was to create a two-player car racing game. I wrote about the challenge in a lot of detail in my [journal](https://github.com/ariyachlt/Intro_IM/blob/main/finalProject/journal.md). Because I was trying to hard to make my initial idea work, I lost a lot of time that I could have spent making my project more complex. Once I finally decided to change the idea of my project completely, I faced a few challenges drawing the dartboard because it required a fair bit of calculations and taking into account the board of the rectangles. I had to re-do this part a few times to get it right and looking exactly how I wanted it to.
 
 ## Discoveries
-
+The challenge I faced made me realise that good things can come out of things not working out the way you had hoped it would... even if it induced a lot of frustration in the process. The interaction I created ended up not working for my initial final project idea no matter how hard I tried to make it work. However, sometimes switching the project idea completely (as daunting as it can be when there is a deadline), can make the interaction work for a different idea in ways that you did not expect it to. 
 
 ## Moving Forward
-
+If I had more time, I could have loved to make it a little more complex and similar to an actual dart game (ex. using a round board and two switches to control the x and y aiming of the dart). However, given the circumstances, I quite liked how the fact that my initial plan failed and time
 
 
