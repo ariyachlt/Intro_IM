@@ -22,7 +22,7 @@ I assume that most already know what 'darts' or 'dart-throwing' is. But for thos
 </p>
 
 **What does my version of it look like?** \
-My version of the game is a little more simplified, with some odd adaptations here and there that I actually ended up quite liking the idea of because I was trying to reuse the functionality/interaction of my previous final project idea to create a different project. Below is list of how I adapted or 'deconstructed' the game. \
+My version of the game is a little more simplified, with some odd adaptations here and there that I actually ended up quite liking the idea of because I was trying to reuse the functionality/interaction of my previous final project idea to create a different project. Below is list of how I adapted or 'deconstructed' the game.
 
 - Instead of a round board, I recreated a flat 'linear' board using the same idea that the center region is where the player can score the highest amount of points.
 - The players try to score the most points within a certain time frame instead of trying to reach a score of zero from and intial 501. Every half a second, the program increments the players current score by the score corresponding to the position of the player's 'dart' on the board.
