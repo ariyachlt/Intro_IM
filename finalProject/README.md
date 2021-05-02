@@ -53,8 +53,8 @@ Click [here]() to watch it with sound.
 Below is a schematic of my circuit (left) and an image of how I breadboarded it (right). Since two players will be using switches on the same breadboard to control their 'dart', their placement is important. I made sure the switches were far apart from each other and that the wires were not in the way so that it can be comfortable for the players to control the switches.
 
 <p align="center">
-  <img src="finalSchematic.png" width="480">
-  <img src="finalBreadboarded.png" width="480">
+  <img src="images/finalSchematic.jpg" height="420">
+  <img src="images/finalBreadboarded.png" height="420">
 </p>
 
 ## Challenges
