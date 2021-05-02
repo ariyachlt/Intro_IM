@@ -62,22 +62,18 @@ However, before I can check that this even works, I need to first set up the cir
 
 Next, I began writing the communication between Arduino and Processing. I send two information from Arduino to Processing: 1) whether or not player 1 should move and 2) whether or not player 2 should move. For now, I am checking with only one player to see if I can make a rectangle (which will become the car) in processing move upwards before I add the other player's rectangle. The code does work and the car only moves upwards when the buttons are alternative. However, sometimes the car doesn't move at all even if the buttons are alternative. The fact that it is alternating seems to be detected, it just doesn't seem to always translate to movement on the screen. I suspect it may have something to do with the speed of communication between Arduino and Processing but I'm not sure. I may try to play around a little to see if I can change it but, if not, my program still works mostly fine. I'm considering adding some acceleration and deceleration so the movement looks smoother.
 
-<p align="center">
-  <img src="images/alternatingButtonScreenshot.png" height="330">
-</p>
-
 **Wednesday April 21, 2021** \
 Today, I decided to change my plan a little bit. Instead of pressing the buttons alternately to move the car, I decided to play around with acceleration. I changed it up so that the player has to hold the button to accelerate. I tried this with one car and it worked quite well. I removed the other switch because now there is no longer any real reason for two switches.
 
 <p align="center">
-  <img src="images/accelerationScreenshot1.png" height="330">
+  <img src="images/accelerationWorking.gif" height="330">
 </p>
 
 **Thursday April 22, 2021** \
 I realised that adding acceleration only doesn't really work because then whoever is the first the press the button will obviously get to the finish line first. Acceleration makes it too easy because then it just depends on who pressed the button first. I tried to think of ways to make it better. One idea that came to mind was to have a maximum speed that if the car reaches it, it will "crashed" or freeze, or maybe move back down a little bit. I figured it could be a nice way  to add another level of challenge and definitely makes it feel more like a game.
 
 **Saturday April 24, 2021** \
-I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combinatin of these different ideas although nothing in particular is really speaking to me.
+I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car falls back a little bit (left). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (middle). I played around with making the car fall down when the switch is not pressed to add another level of complexity (right). Overall, I think I can work with a combination of these different ideas although nothing in particular is really speaking to me.
 
 <p align="center">
   <img src="images/accFallAbit.png" height="330">
