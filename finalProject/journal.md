@@ -76,9 +76,9 @@ I realised that adding acceleration only doesn't really work because then whoeve
 I implemented the idea I had from yesterday. I added a maximum velocity so that if the player accelerates to the velocity, the car stops for a few seconds (left). In another version, the car restarts from a position slightly lower (middle). I also experimented with making the car go back to its initialy position but I'm not really satisfied with either result (right). Overall, I think I can work with a combination of these different ideas although nothing in particular is really speaking to me.
 
 <p align="center">
-  <img src="images/accFreeze.png" height="330">
-  <img src="images/accFallAbit.png" height="330">
-  <img src="images/accFallToBot.png" height="330">
+  <img src="images/accFreeze.gif" height="330">
+  <img src="images/accFallAbit.gif" height="330">
+  <img src="images/accFallToBot.gif" height="330">
 </p>
 
 **Sunday April 25, 2021** \
