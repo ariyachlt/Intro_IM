@@ -43,7 +43,7 @@ In my journal, I use the word 'deconstructed' to describe my project quite often
 
 ## Demo
 <p align="center">
-  <img src="images/demoImage.png" width="420">
+  <img src="images/demoImage.png" height="350">
 </p>
 
 Click [here](https://youtu.be/joQTGIlkB88) to for a video demo.
