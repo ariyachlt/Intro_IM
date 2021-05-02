@@ -58,7 +58,7 @@ Below is a schematic of my circuit (left) and an image of how I breadboarded it 
 </p>
 
 ## Challenges
-
+The main challenge that I faced was in making the movement work for my initial final project idea which was to create a two-player car racing game. I wrote about the challenge in a lot of detail in my 
 
 ## Discoveries
 
