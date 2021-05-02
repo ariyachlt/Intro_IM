@@ -1,10 +1,10 @@
 # Final Project (Adaptation of Darts)
 
 <p align="center">
-  <img src="images/finalMainMenu.png" height="350">
-  <img src="images/finalInstructions.png" height="350">
-  <img src="images/finalGame.png" height="350">
-  <img src="images/finalGameOver.png" height="350">
+  <img src="images/finalMainMenu.png" height="300">
+  <img src="images/finalInstructions.png" height="300">
+  <img src="images/finalGame.png" height="300">
+  <img src="images/finalGameOver.png" height="300">
 </p>
 
 <p align="center">
